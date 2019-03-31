@@ -5,18 +5,17 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <title>Module-04</title>
+  <title>Module-05</title>
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:900" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<div class="wrapper">
 
-  <!-- header -->
-
-  <header class="header clearfix">
+<!-- header -->
+<header class="header">
+  <div class="container">
     <a href="#" class="logo">
       <img src="img/logo.png" alt="mart" width="78" height="22">
     </a>
@@ -31,19 +30,47 @@
         <li><a href="#">contact us</a></li>
       </ul>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main>
+<main>
+  <!-- slider -->
+  <section class="slider">
+    <ul class="slider-list">
+      <li>
+        <img src="img/slider/1.jpg" alt="slider-1" width="1600" height="600">
+        <div class="slider-info">
+          <h2 class="slider-info__head">AFFORDABLE PARIS TOURS</h2>
+          <p class="slider-info__text">CITY TOURS / TOUR TICKETS / TOUR GUIDES</p>
+        </div>
+      </li>
+    </ul>
 
-    <!-- section products -->
+    <button class="slider-btn slider-btn_prev">prev</button>
 
-    <section class="products">
-      <h2 class="section-head">featured products</h2>
+    <button class="slider-btn slider-btn_next">next</button>
+  </section>
+
+  <!-- section products -->
+  <section class="products">
+    <div class="container">
+      <h2 class="section-head">new collection</h2>
 
       <ul class="products-list clearfix">
         <li>
           <div class="card">
-            <img src="img/products/1.jpg" alt="blue tshirt" width="255" height="322">
+            <div class="overlay">
+              <ul class="overlay-list clearfix">
+                <li><a class="heart" href="#">link 1</a></li>
+                <li><a class="arrows" href="#">link 2</a></li>
+                <li><a class="clock" href="#">link 3</a></li>
+              </ul>
+
+              <a href="#" class="overlay-basket-link">add to cart</a>
+            </div>
+
+            <img class="card__img" src="img/products/1.jpg" alt="blue tshirt" width="255" height="322">
+
             <div class="card-info clearfix">
               <h3 class="card-info__title">blue tshirt</h3>
 
@@ -53,7 +80,18 @@
         </li>
         <li>
           <div class="card">
-            <img src="img/products/2.jpg" alt="woman shirt" width="255" height="322">
+            <div class="overlay">
+              <ul class="overlay-list clearfix">
+                <li><a class="heart" href="#">link 1</a></li>
+                <li><a class="arrows" href="#">link 2</a></li>
+                <li><a class="clock" href="#">link 3</a></li>
+              </ul>
+
+              <a href="#" class="overlay-basket-link">add to cart</a>
+            </div>
+
+            <img class="card__img" src="img/products/2.jpg" alt="woman shirt" width="255" height="322">
+
             <div class="card-info clearfix">
               <h3 class="card-info__title">woman shirt</h3>
 
@@ -63,7 +101,18 @@
         </li>
         <li>
           <div class="card">
-            <img src="img/products/3.jpg" alt="yellow tshirt" width="255" height="322">
+            <div class="overlay">
+              <ul class="overlay-list clearfix">
+                <li><a class="heart" href="#">link 1</a></li>
+                <li><a class="arrows" href="#">link 2</a></li>
+                <li><a class="clock" href="#">link 3</a></li>
+              </ul>
+
+              <a href="#" class="overlay-basket-link">add to cart</a>
+            </div>
+
+            <img class="card__img" src="img/products/3.jpg" alt="yellow tshirt" width="255" height="322">
+
             <div class="card-info clearfix">
               <h3 class="card-info__title">yellow tshirt</h3>
 
@@ -73,7 +122,18 @@
         </li>
         <li>
           <div class="card">
-            <img src="img/products/4.jpg" alt="cool lingerie" width="255" height="322">
+            <div class="overlay">
+              <ul class="overlay-list clearfix">
+                <li><a class="heart" href="#">link 1</a></li>
+                <li><a class="arrows" href="#">link 2</a></li>
+                <li><a class="clock" href="#">link 3</a></li>
+              </ul>
+
+              <a href="#" class="overlay-basket-link">add to cart</a>
+            </div>
+
+            <img class="card__img" src="img/products/4.jpg" alt="cool lingerie" width="255" height="322">
+
             <div class="card-info clearfix">
               <h3 class="card-info__title">cool lingerie</h3>
 
@@ -83,7 +143,18 @@
         </li>
         <li>
           <div class="card">
-            <img src="img/products/5.jpg" alt="blue tshirt" width="255" height="322">
+            <div class="overlay">
+              <ul class="overlay-list clearfix">
+                <li><a class="heart" href="#">link 1</a></li>
+                <li><a class="arrows" href="#">link 2</a></li>
+                <li><a class="clock" href="#">link 3</a></li>
+              </ul>
+
+              <a href="#" class="overlay-basket-link">add to cart</a>
+            </div>
+
+            <img class="card__img" src="img/products/4.jpg" alt="blue tshirt" width="255" height="322">
+
             <div class="card-info clearfix">
               <h3 class="card-info__title">blue tshirt</h3>
 
@@ -93,7 +164,18 @@
         </li>
         <li>
           <div class="card">
-            <img src="img/products/6.jpg" alt="woman shirt" width="255" height="322">
+            <div class="overlay">
+              <ul class="overlay-list clearfix">
+                <li><a class="heart" href="#">link 1</a></li>
+                <li><a class="arrows" href="#">link 2</a></li>
+                <li><a class="clock" href="#">link 3</a></li>
+              </ul>
+
+              <a href="#" class="overlay-basket-link">add to cart</a>
+            </div>
+
+            <img class="card__img" src="img/products/3.jpg" alt="woman shirt" width="255" height="322">
+
             <div class="card-info clearfix">
               <h3 class="card-info__title">woman shirt</h3>
 
@@ -103,7 +185,18 @@
         </li>
         <li>
           <div class="card">
-            <img src="img/products/7.jpg" alt="yellow tshirt" width="255" height="322">
+            <div class="overlay">
+              <ul class="overlay-list clearfix">
+                <li><a class="heart" href="#">link 1</a></li>
+                <li><a class="arrows" href="#">link 2</a></li>
+                <li><a class="clock" href="#">link 3</a></li>
+              </ul>
+
+              <a href="#" class="overlay-basket-link">add to cart</a>
+            </div>
+
+            <img class="card__img" src="img/products/2.jpg" alt="yellow tshirt" width="255" height="322">
+
             <div class="card-info clearfix">
               <h3 class="card-info__title">yellow tshirt</h3>
 
@@ -113,7 +206,18 @@
         </li>
         <li>
           <div class="card">
-            <img src="img/products/8.jpg" alt="cool lingerie" width="255" height="322">
+            <div class="overlay">
+              <ul class="overlay-list clearfix">
+                <li><a class="heart" href="#">link 1</a></li>
+                <li><a class="arrows" href="#">link 2</a></li>
+                <li><a class="clock" href="#">link 3</a></li>
+              </ul>
+
+              <a href="#" class="overlay-basket-link">add to cart</a>
+            </div>
+
+            <img class="card__img" src="img/products/1.jpg" alt="cool lingerie" width="255" height="322">
+
             <div class="card-info clearfix">
               <h3 class="card-info__title">cool lingerie</h3>
 
@@ -122,57 +226,15 @@
           </div>
         </li>
       </ul>
-    </section>
+    </div>
+  </section>
+</main>
 
-    <!-- section news -->
-
-    <section class="news">
-      <h2 class="section-head">latest news</h2>
-
-      <ul class="news-list clearfix">
-        <li>
-          <article class="article">
-            <img class="article__images" src="img/news/1.jpg" alt="news" width="350" height="262">
-
-            <h2 class="article__head">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h2>
-
-            <p class="article__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a
-              sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-            </p>
-
-            <a class="article__btn" href="#" target="_blank">Read More</a>
-          </article>
-        </li>
-        <li>
-          <article class="article">
-            <img class="article__images" src="img/news/2.jpg" alt="news" width="350" height="262">
-
-            <h2 class="article__head">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h2>
-
-            <p class="article__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a
-              sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-            </p>
-
-            <a class="article__btn" href="#" target="_blank">Read More</a>
-          </article>
-        </li>
-        <li>
-          <article class="article">
-            <img class="article__images" src="img/news/3.jpg" alt="news" width="350" height="262">
-
-            <h2 class="article__head">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h2>
-
-            <p class="article__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a
-              sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-            </p>
-
-            <a class="article__btn" href="#" target="_blank">Read More</a>
-          </article>
-        </li>
-      </ul>
-    </section>
-  </main>
-</div>
-
+<!--footer-->
+<footer class="footer">
+  <div class="container">
+    <p class="footer__info">All Rights Reserved © Dokan | Designed <span>ThemenGraph</span></p>
+  </div>
+</footer>
 </body>
 </html>
