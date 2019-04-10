@@ -4,121 +4,107 @@
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <title>Module-07</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Module-08</title>
 
-  <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style-all.css">
 </head>
 <body>
 
-<!-- header -->
 <header class="header">
   <div class="container">
-    <div class="header__row">
-      <a href="#" class="logo">
-        <img class="logo__img" src="img/logo.png" alt="mogo" width="86" height="23">
-      </a>
-
+    <div class="header__row top">
       <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-list__item">
-            <a class="nav-list__link" href="#">home</a>
-          </li>
+        <a href="#" class="logo" target="_self">
+          <img src="img/logo.png" alt="logo">
+          <span class="visually-hidden">some text</span>
+        </a>
 
-          <li class="nav-list__item">
-            <a class="nav-list__link" href="#">services</a>
-          </li>
+        <div class="btn-box">
+          <a href="#" class="btn-box__item">Log in</a>
 
-          <li class="nav-list__item">
-            <a class="nav-list__link" href="#">portfolio</a>
-          </li>
-
-          <li class="nav-list__item">
-            <a class="nav-list__link" href="#">about</a>
-          </li>
-
-          <li class="nav-list__item">
-            <a class="nav-list__link" href="#">contact</a>
-          </li>
-        </ul>
+          <a href="#" class="btn-box__item btn-box__item_bordered">Sign up</a>
+        </div>
       </nav>
+    </div>
+
+    <div class="header__row">
+      <div class="title-box">
+        <h1 class="title-box__head">Share your holiday dreams</h1>
+
+        <p class="title-box__text">And find the perfect partner to fullfill it</p>
+
+        <a href="#" class="title-box__link" target="_blank">Find your holiday partner</a>
+      </div>
     </div>
   </div>
 </header>
 
 <main>
-  <section class="services">
+  <section class="partner">
     <div class="container">
-      <header class="section-header">
-        <h2 class="section-header__head">Services</h2>
+      <h2 class="section-header">Meet a partner for your best holiday</h2>
 
-        <p class="section-header__desc">Proin iaculis purus consequat sem cure.</p>
-      </header>
+      <ul class="partner-list">
+        <li class="partner-list__item">
+          <article class="article">
+            <div class="article__img one">
+              <img src="img/partner/1.jpg" alt="Bradley Hunter" width="122" height="122">
+            </div>
 
-      <ul class="services-list">
-        <li class="services-list__item">
-          <article class="article commerce">
-            <h3 class="article__head">E-Commerce</h3>
+            <h3 class="article__head">Bradley Hunter</h3>
 
-            <p class="article__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
-              aenean rhoncus posuere odio in tincidunt.
+            <p class="article__text">Based in Chicago. I love playing tennis and loud music.</p>
+          </article>
+        </li>
+
+        <li class="partner-list__item">
+          <article class="article">
+            <div class="article__img two">
+              <img src="img/partner/2.jpg" alt="Heather Walker" width="123" height="123">
+            </div>
+
+            <h3 class="article__head">Heather Walker</h3>
+
+            <p class="article__text">I'm a happy person that loves cats and climbing on mountains.</p>
+          </article>
+        </li>
+
+        <li class="partner-list__item">
+          <article class="article">
+            <div class="article__img tree">
+              <img src="img/partner/3.jpg" alt="Lucas Marsha" width="124" height="124">
+            </div>
+
+            <h3 class="article__head">Lucas Marsha</h3>
+
+            <p class="article__text">I get my inspiration from nature and objects around me. I have a
+              passion to
+              colours, typography and skateboards.
             </p>
           </article>
         </li>
 
-        <li class="services-list__item">
-          <article class="article response">
-            <h3 class="article__head">Responsive Web</h3>
+        <li class="partner-list__item">
+          <article class="article">
+            <div class="article__img four">
+              <img src="img/partner/4.jpg" alt="Bradley Hunter" width="126" height="126">
+            </div>
 
-            <p class="article__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
-              aenean rhoncus posuere odio in tincidunt.
-            </p>
-          </article>
-        </li>
+            <h3 class="article__head">Bradley Hunter</h3>
 
-        <li class="services-list__item">
-          <article class="article security">
-            <h3 class="article__head">Web Security</h3>
-
-            <p class="article__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
-              aenean rhoncus posuere odio in tincidunt.
-            </p>
+            <p class="article__text">Based in Chicago. I love playing tennis and loud music.</p>
           </article>
         </li>
       </ul>
+
+      <a href="#" class="more" target="_blank">See other partners</a>
     </div>
   </section>
 </main>
 
-<!-- contacts -->
-<div class="contacts">
-  <div class="container">
-    <header class="section-header">
-      <h2 class="section-header__head section-header__head_white">contact us</h2>
 
-      <p class="section-header__desc">Proin iaculis purus consequat sem cure. </p>
-    </header>
-
-    <form class="form" name="contact-form" action="#">
-      <div class="form__row">
-        <div class="form__col">
-          <input class="form__field" type="text" name="name" autocomplete="off" placeholder="your name*" required>
-
-          <input class="form__field" type="email" name="emil" autocomplete="off" placeholder="your email*" required>
-
-          <input class="form__field" type="text" name="subject" autocomplete="off" placeholder="subject">
-        </div>
-        <div class="form__col">
-          <textarea name="message" class="form__area" autocomplete="off" placeholder="your message*"
-                    required></textarea>
-        </div>
-      </div>
-      <div class="form__row">
-        <button class="form__btn" type="submit">send message</button>
-      </div>
-    </form>
-  </div>
-</div>
 </body>
 </html>
