@@ -37,20 +37,12 @@ body {
   margin: -1px;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 /*header*/
 
 .header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.nav {
-  display: flex;
 }
 
 .btn-box {
@@ -95,24 +87,14 @@ body {
   letter-spacing: 1px;
 }
 
-.title-box__link {
-  display: block;
-  margin: auto;
-  padding: 12px 0;
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: var(--color-white);
-  text-align: center;
-  background-color: var(--color-main);
-  border-radius: 50px;
-  text-decoration: none;
-}
-
 /* section-header */
 
+.partner__header {
+  padding-bottom: 32px;
+}
+
 .section-header {
-  margin: 0 0 32px;
+  margin: 0;
   font-size: 22px;
   color: var(--color-head);
   font-family: 'Montserrat', sans-serif;
@@ -128,9 +110,7 @@ body {
 }
 
 .partner-list {
-  margin: 0;
   padding: 0 0 38px;
-  list-style-type: none;
 }
 
 .article {
@@ -199,7 +179,7 @@ body {
   font-weight: 300;
 }
 
-.more {
+.btn {
   display: block;
   margin: 0 auto;
   padding: 10px 0;
@@ -214,9 +194,23 @@ body {
   text-decoration: none;
 }
 
+.partner__link {
+  max-width: 280px;
+}
+
+.title-box__link {
+  max-width: 280px;
+  color: var(--color-white);
+  background-color: var(--color-main);
+}
+
 @media screen and (min-width: 768px) {
-  .container {
-    width: 748px;
+  .header__top {
+    padding: 36px 0 146px;
+  }
+
+  .btn-box {
+    justify-content: flex-end;
   }
 
   .header {
@@ -224,14 +218,8 @@ body {
     background-image: url(../img/tablet-banner.jpg);
   }
 
-  .nav {
-    padding: 36px 0;
-    justify-content: space-between;
+  .header__top {
     align-items: center;
-  }
-
-  .top {
-    padding: 0 50px 110px;
   }
 
   .title-box__head {
@@ -242,63 +230,43 @@ body {
     font-size: 24px;
   }
 
+  .partner-list .partner-list__item {
+    margin-bottom: 50px;
+  }
+
+  .partner-list .partner-list__item:nth-last-child(-n + 2) {
+    margin: 0;
+  }
+
+  .btn {
+    transition: all 200ms linear;
+  }
+
+  .partner__link {
+    max-width: 190px;
+  }
+
+  .partner__link:hover {
+    background-color: var(--color-main);
+    color: var(--color-white);
+  }
+
   .title-box__link {
     max-width: 226px;
   }
 
-  .partner-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .partner-list .partner-list__item {
-    width: 236px;
-    margin: 0 10px 50px;
-  }
-
-  .partner-list .partner-list__item:nth-last-child(-n + 2) {
-    margin: 0 10px;
-  }
-
-  .more {
-    max-width: 190px;
-    transition: all 200ms linear;
-  }
-
-  .more:hover {
-    background-color: var(--color-main);
-    color: var(--color-white);
+  .title-box__link:hover {
+    background-color: transparent;
+    color: var(--color-main);
   }
 }
 
 @media screen and (min-width: 940px) {
-  .container {
-    width: 940px;
-  }
-
   .header {
     background-image: url(../img/desctop-banner.jpg);
   }
 
-  .top {
-    padding: 0 0 110px;
-  }
-
-  .partner-list {
-    justify-content: space-between;
-  }
-
   .partner-list .partner-list__item {
-    width: 220px;
-  }
-
-  .partner-list .partner-list__item {
-    width: 220px;
-    margin: 0;
-  }
-
-  .partner-list .partner-list__item:nth-last-child(-n + 2) {
     margin: 0;
   }
 
@@ -311,9 +279,14 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .container {
-    width: 320px;
-    padding: 0 18px;
+  .header__top {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 40px;
+  }
+
+  .btn-box {
+    justify-content: center;
   }
 
   .header {
@@ -321,19 +294,17 @@ body {
     background-image: url(../img/mobile-banner.jpg);
   }
 
-  .nav {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 0 40px;
+  .logo__img {
+    margin: auto;
   }
 
-  .btn-box {
+  .col_order-1 {
+    order: 2;
+  }
+
+  .col_order-2 {
     order: 1;
     padding-bottom: 110px;
-  }
-
-  .logo {
-    order: 2;
   }
 
   .title-box__head {
@@ -344,15 +315,7 @@ body {
     font-size: 18px;
   }
 
-  .title-box__link {
-    max-width: 280px;
-  }
-
   .partner-list .partner-list__item:not(:last-child) {
-    margin: 0 0 26px;
-  }
-
-  .more {
-    max-width: 280px;
+    margin-bottom: 26px;
   }
 }

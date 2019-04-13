@@ -5,9 +5,10 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Module-08</title>
+  <title>Module-09</title>
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style-all.css">
 </head>
@@ -15,28 +16,34 @@
 
 <header class="header">
   <div class="container">
-    <div class="header__row top">
-      <nav class="nav">
+    <div class="row header__top">
+      <div class="col col_order-1">
         <a href="#" class="logo" target="_self">
-          <img src="img/logo.png" alt="logo">
+          <img class="logo__img" src="img/logo.png" alt="logo">
           <span class="visually-hidden">some text</span>
         </a>
+      </div>
 
+      <div class="col col_order-2">
         <div class="btn-box">
           <a href="#" class="btn-box__item">Log in</a>
 
           <a href="#" class="btn-box__item btn-box__item_bordered">Sign up</a>
         </div>
-      </nav>
+      </div>
     </div>
 
-    <div class="header__row">
-      <div class="title-box">
-        <h1 class="title-box__head">Share your holiday dreams</h1>
+    <div class="row">
+      <div class="col">
+        <div class="header__row">
+          <div class="title-box">
+            <h1 class="title-box__head">Share your holiday dreams</h1>
 
-        <p class="title-box__text">And find the perfect partner to fullfill it</p>
+            <p class="title-box__text">And find the perfect partner to fullfill it</p>
 
-        <a href="#" class="title-box__link" target="_blank">Find your holiday partner</a>
+            <a href="#" class="btn title-box__link" target="_blank">Find your holiday partner</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -45,10 +52,14 @@
 <main>
   <section class="partner">
     <div class="container">
-      <h2 class="section-header">Meet a partner for your best holiday</h2>
+      <div class="row">
+        <div class="col partner__header">
+          <h2 class="section-header">Meet a partner for your best holiday</h2>
+        </div>
+      </div>
 
-      <ul class="partner-list">
-        <li class="partner-list__item">
+      <div class="row partner-list">
+        <div class="col-12 col-md-6 col-lg-3 partner-list__item">
           <article class="article">
             <div class="article__img one">
               <img src="img/partner/1.jpg" alt="Bradley Hunter" width="122" height="122">
@@ -58,9 +69,9 @@
 
             <p class="article__text">Based in Chicago. I love playing tennis and loud music.</p>
           </article>
-        </li>
+        </div>
 
-        <li class="partner-list__item">
+        <div class="col-12 col-md-6 col-lg-3 partner-list__item">
           <article class="article">
             <div class="article__img two">
               <img src="img/partner/2.jpg" alt="Heather Walker" width="123" height="123">
@@ -70,9 +81,9 @@
 
             <p class="article__text">I'm a happy person that loves cats and climbing on mountains.</p>
           </article>
-        </li>
+        </div>
 
-        <li class="partner-list__item">
+        <div class="col-12 col-md-6 col-lg-3 partner-list__item">
           <article class="article">
             <div class="article__img tree">
               <img src="img/partner/3.jpg" alt="Lucas Marsha" width="124" height="124">
@@ -85,9 +96,9 @@
               colours, typography and skateboards.
             </p>
           </article>
-        </li>
+        </div>
 
-        <li class="partner-list__item">
+        <div class="col-12 col-md-6 col-lg-3 partner-list__item">
           <article class="article">
             <div class="article__img four">
               <img src="img/partner/4.jpg" alt="Bradley Hunter" width="126" height="126">
@@ -97,14 +108,17 @@
 
             <p class="article__text">Based in Chicago. I love playing tennis and loud music.</p>
           </article>
-        </li>
-      </ul>
+        </div>
+      </div>
 
-      <a href="#" class="more" target="_blank">See other partners</a>
+      <div class="row">
+        <div class="col">
+          <a href="#" class="btn partner__link" target="_blank">See other partners</a>
+        </div>
+      </div>
     </div>
   </section>
 </main>
-
 
 </body>
 </html>
