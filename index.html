@@ -4,121 +4,346 @@
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Module-09</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>Module-10</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap-grid.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style-all.css">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400"
+        rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 
+<!-- header -->
 <header class="header">
   <div class="container">
-    <div class="row header__top">
-      <div class="col col_order-1">
-        <a href="#" class="logo" target="_self">
-          <img class="logo__img" src="img/logo.png" alt="logo">
-          <span class="visually-hidden">some text</span>
-        </a>
-      </div>
+    <div class="header__row header__row_top">
+      <a href="#" class="logo">
+        <img
+          srcset="img/logo.png 86w, img/logo2x.png 172w"
+          sizes="(min-width: 1366px) 86px, (min-width: 2048px) 172px, 86px"
+          src="img/logo.png"
+          alt="mogo"
+          height="23">
+      </a>
 
-      <div class="col col_order-2">
-        <div class="btn-box">
-          <a href="#" class="btn-box__item">Log in</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">about</a>
+          </li>
 
-          <a href="#" class="btn-box__item btn-box__item_bordered">Sign up</a>
-        </div>
-      </div>
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">service</a>
+          </li>
+
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">work</a>
+          </li>
+
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">blog</a>
+          </li>
+
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">contact</a>
+          </li>
+
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">
+              <svg class="nav-list__icon">
+                <use href="./img/sprite.svg#basket"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="nav-list__item">
+            <a class="nav-list__link" href="#">
+              <a class="nav-list__link" href="#">
+                <svg class="nav-list__icon">
+                  <use href="./img/sprite.svg#loupe"></use>
+                </svg>
+              </a>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
-    <div class="row">
-      <div class="col">
-        <div class="header__row">
-          <div class="title-box">
-            <h1 class="title-box__head">Share your holiday dreams</h1>
+    <div class="header__row header__row_bottom">
+      <h1 class="header-head">
+        <span class="header-head__subtitle">creative template</span>
 
-            <p class="title-box__text">And find the perfect partner to fullfill it</p>
+        <span class="header-head__title">welcome to mogo</span>
+      </h1>
 
-            <a href="#" class="btn title-box__link" target="_blank">Find your holiday partner</a>
-          </div>
-        </div>
-      </div>
+      <a href="#" class="header-link">learn more</a>
     </div>
   </div>
 </header>
 
 <main>
-  <section class="partner">
+  <section class="services-block">
     <div class="container">
-      <div class="row">
-        <div class="col partner__header">
-          <h2 class="section-header">Meet a partner for your best holiday</h2>
-        </div>
-      </div>
+      <header class="section-header">
+        <h2 class="section-header__head">
+          <span class="section-header__subtitle">We work with</span>
 
-      <div class="row partner-list">
-        <div class="col-12 col-md-6 col-lg-3 partner-list__item">
-          <article class="article">
-            <div class="article__img one">
-              <img src="img/partner/1.jpg" alt="Bradley Hunter" width="122" height="122">
+          <span class="section-header__title">Amazing Services</span>
+        </h2>
+      </header>
+
+      <ul class="services-list">
+        <li class="services-list__item">
+          <article class="article-block article-block_photo">
+            <h3 class="article-block__head">Photography</h3>
+
+            <p class="article-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor.</p>
+          </article>
+        </li>
+
+        <li class="services-list__item">
+          <article class="article-block article-block_design">
+            <h3 class="article-block__head">Web Design</h3>
+
+            <p class="article-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor.</p>
+          </article>
+        </li>
+
+        <li class="services-list__item">
+          <article class="article-block article-block_creativity">
+            <h3 class="article-block__head">Creativity</h3>
+
+            <p class="article-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor.</p>
+          </article>
+        </li>
+
+        <li class="services-list__item">
+          <article class="article-block article-block_seo">
+            <h3 class="article-block__head">seo</h3>
+
+            <p class="article-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor.</p>
+          </article>
+        </li>
+
+        <li class="services-list__item">
+          <article class="article-block article-block_html">
+            <h3 class="article-block__head">Css/Html</h3>
+
+            <p class="article-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor.</p>
+          </article>
+        </li>
+
+        <li class="services-list__item">
+          <article class="article-block article-block_digital">
+            <h3 class="article-block__head">digital</h3>
+
+            <p class="article-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor.</p>
+          </article>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="team">
+    <div class="container">
+      <header class="section-header">
+        <h2 class="section-header__head">
+          <span class="section-header__subtitle">Who we are</span>
+
+          <span class="section-header__title">meet our team</span>
+        </h2>
+
+        <p class="section-header__desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+      </header>
+
+      <ul class="team-list">
+        <li class="team-list__item">
+          <div class="team-box" target="_blank">
+            <div class="team-box__img">
+              <div class="team-box__overlay">
+                <ul class="social-list">
+                  <li class="social-list__item item-1">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item item-2">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item item-3">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#pinterest"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item item-4">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <img
+                srcset="img/team/1.jpg 380w, img/team/1@2x.jpg 760w"
+                sizes="(min-width: 1366px) 380px, (min-width: 2048px) 760px, 380px"
+                src="img/team/1.jpg"
+                alt="Matthew Dix"
+                height="470">
             </div>
 
-            <h3 class="article__head">Bradley Hunter</h3>
+            <h3 class="team-box__head">Matthew Dix</h3>
 
-            <p class="article__text">Based in Chicago. I love playing tennis and loud music.</p>
-          </article>
-        </div>
+            <p class="team-box__text">Graphic Design</p>
+          </div>
+        </li>
 
-        <div class="col-12 col-md-6 col-lg-3 partner-list__item">
-          <article class="article">
-            <div class="article__img two">
-              <img src="img/partner/2.jpg" alt="Heather Walker" width="123" height="123">
+        <li class="team-list__item">
+          <div class="team-box" target="_blank">
+            <div class="team-box__img">
+              <div class="team-box__overlay">
+                <ul class="social-list">
+                  <li class="social-list__item item-1">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item item-2">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item item-3">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#pinterest"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item item-4">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <img
+                srcset="img/team/2.jpg 380w, img/team/2@2x.jpg 760w"
+                sizes="(min-width: 1366px) 380px, (min-width: 2048px) 760px, 380px"
+                src="img/team/2.jpg"
+                alt="Christopher Campbell"
+                height="470">
             </div>
 
-            <h3 class="article__head">Heather Walker</h3>
+            <h3 class="team-box__head">Christopher Campbell</h3>
 
-            <p class="article__text">I'm a happy person that loves cats and climbing on mountains.</p>
-          </article>
-        </div>
+            <p class="team-box__text">Branding/UX design</p>
+          </div>
+        </li>
 
-        <div class="col-12 col-md-6 col-lg-3 partner-list__item">
-          <article class="article">
-            <div class="article__img tree">
-              <img src="img/partner/3.jpg" alt="Lucas Marsha" width="124" height="124">
+        <li class="team-list__item">
+          <div class="team-box" target="_blank">
+            <div class="team-box__img">
+              <div class="team-box__overlay">
+                <ul class="social-list">
+                  <li class="social-list__item item-1">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item item-2">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item item-3">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#pinterest"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="social-list__item item-4">
+                    <a href="#" class="social-list__link">
+                      <svg class="social-list__icon">
+                        <use href="./img/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <img
+                srcset="img/team/3.jpg 380w, img/team/3@2x.jpg 760w"
+                sizes="(min-width: 1366px) 380px, (min-width: 2048px) 760px, 380px"
+                src="img/team/3.jpg"
+                alt="Michael Fertig"
+                height="470">
             </div>
 
-            <h3 class="article__head">Lucas Marsha</h3>
+            <h3 class="team-box__head">Michael Fertig</h3>
 
-            <p class="article__text">I get my inspiration from nature and objects around me. I have a
-              passion to
-              colours, typography and skateboards.
-            </p>
-          </article>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-3 partner-list__item">
-          <article class="article">
-            <div class="article__img four">
-              <img src="img/partner/4.jpg" alt="Bradley Hunter" width="126" height="126">
-            </div>
-
-            <h3 class="article__head">Bradley Hunter</h3>
-
-            <p class="article__text">Based in Chicago. I love playing tennis and loud music.</p>
-          </article>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <a href="#" class="btn partner__link" target="_blank">See other partners</a>
-        </div>
-      </div>
+            <p class="team-box__text">Developer</p>
+          </div>
+        </li>
+      </ul>
     </div>
   </section>
 </main>
 
+<!--footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__row">
+      <p class="footer__copyright">&copy; 2016 MoGo free PSD template by <a href="#" class="footer__link"
+                                                                            target="_blank">Laaqiq</a></p>
+
+      <form class="form">
+        <input type="email" name="email" class="form__field" placeholder="Your Email..." required>
+
+        <button class="form__btn" type="submit">subscribe</button>
+      </form>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
