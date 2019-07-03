@@ -24,12 +24,7 @@ class Notepad {
   };
 
   deleteNote(id) {
-    let filter = this._notes.find(note => note.id === id);
-    const noteIndex = this._notes.indexOf(filter);
-
-    if (!filter) return;
-
-    this._notes.splice(noteIndex, 1);
+    this._notes = this._notes.filter(note => note.id !== id);
   };
 
   updateNoteContent(id, updatedContent) {
