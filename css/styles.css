@@ -17,6 +17,10 @@ body {
   background-color: #fff;
 }
 
+main {
+  padding-bottom: 32px;
+}
+
 textarea {
   resize: none;
 }
