@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  color: #3d3c70;
+  font-family: 'Roboto', sans-serif;
+  background: rgb(203,188,255);
+  background: radial-gradient(circle, rgba(219,203,243,1) 0%, rgba(203,188,255,1) 100%);
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #3d3c70;
+  font-family: 'Roboto', sans-serif;
+}
+input::-moz-placeholder {
+  font-size: 14px;
+  color: #3d3c70;
+  font-family: 'Roboto', sans-serif;
+}
+input:-ms-input-placeholder {
+  font-size: 14px;
+  color: #3d3c70;
+  font-family: 'Roboto', sans-serif;
+}
+input:-moz-placeholder {
+  font-size: 14px;
+  color: #3d3c70;
+  font-family: 'Roboto', sans-serif;
+}
