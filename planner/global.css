@@ -184,6 +184,13 @@ input:-moz-placeholder {
   }
 }
 
+@media screen and (max-width: 540px) {
+  .todo-box {
+    width: 95%;
+    margin: 25px auto 0 !important;
+  }
+}
+
 @keyframes fadeinup {
   0% {
     opacity: 0;
