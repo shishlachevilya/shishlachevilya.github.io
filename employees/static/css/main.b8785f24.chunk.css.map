@@ -1,0 +1,1 @@
+{"version":3,"sources":["app-table-body.css","app.css"],"names":[],"mappings":"AAAA,UACE,SACF,CCFA,UACE,gBAAiB,CACjB,mBACF","file":"main.b8785f24.chunk.css","sourcesContent":[".vertical {\r\n  color: red;\r\n}\r\n",".app-wrap {\r\n  max-width: 1000px;\r\n  margin: 100px auto 0;\r\n}\r\n"]}
