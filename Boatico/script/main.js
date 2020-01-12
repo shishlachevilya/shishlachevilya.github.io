@@ -1,0 +1,1 @@
+"use strict";var hello="Hello";console.log("".concat(hello," world"));
