@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Boatico Best Destinations</title>
 
-  <link rel="stylesheet" type="text/css" href="styles/main.min.css">
+  <link rel="stylesheet" type="text/css" href="/styles/main.min.css">
 </head>
 
 <body>
@@ -18,7 +18,235 @@
 </header>
 
   <main class="main">
-    главная страница
+    <section class="breadcrumbs">
+      <ul class="breadcrumbs-list">
+        <li class="breadcrumbs-list__item">
+          <a href="#" class="breadcrumbs-list__link">Home</a>
+        </li>
+
+        <li class="breadcrumbs-list__item">
+          <a href="#" class="breadcrumbs-list__link">Destinations</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="head">
+          <div class="head__col">
+            <h2 class="head__title">Best Destinations</h2>
+            <h3 class="head__desc">Sailing destinations we love</h3>
+          </div>
+
+          <div class="head__col">
+            <form class="head-form">
+              <label for="dest" class="head-form__label">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                      d="M3.515,20.486A12,12,0,0,1,20.485,3.514a11.971,11.971,0,0,1,1.482,15.148.938.938,0,0,1-1.559-1.042,10.122,10.122,0,0,0,1.673-4.683h-.847a.937.937,0,1,1,0-1.875h.847a10.143,10.143,0,0,0-9.19-9.148v.8a.938.938,0,0,1-1.875,0v-.8a10.141,10.141,0,0,0-9.1,9.139h.753a.937.937,0,1,1,0,1.875H1.919a10.143,10.143,0,0,0,9.1,9.141v-.8a.938.938,0,0,1,1.875,0v.8a10.09,10.09,0,0,0,4.347-1.42.938.938,0,0,1,.972,1.6A12,12,0,0,1,3.515,20.486ZM11.3,18.263a1.65,1.65,0,0,1-.083-.227q-.483-1.566-.967-3.13c-.014-.042-.029-.082-.051-.14-.046.04-.086.072-.124.109-.3.293-.587.59-.886.88A.746.746,0,1,1,8.14,14.691c.318-.323.646-.652.986-1l-.783-.239c-.855-.261-1.71-.516-2.564-.781a.693.693,0,0,1-.526-.648.7.7,0,0,1,.387-.708,1.221,1.221,0,0,1,.242-.094l3.109-.969c.046-.016.09-.034.13-.049-.226-.236-.448-.469-.671-.7-.109-.112-.225-.215-.332-.328A.744.744,0,0,1,9.154,8.109c.327.306.641.626.959.94.022.021.045.04.085.074.03-.088.058-.16.081-.233q.474-1.52.946-3.04a.751.751,0,0,1,.976-.558.8.8,0,0,1,.5.577q.466,1.512.939,3.022c.02.063.042.127.089.261.085-.107.139-.187.206-.258.256-.261.513-.524.779-.778a.743.743,0,1,1,1.06,1.042c-.281.3-.576.583-.868.872a1.142,1.142,0,0,1-.168.115l.04.052,2.181.685,1.082.336a.756.756,0,0,1,.006,1.489L15,13.661c-.057.018-.114.042-.19.07l.95.97a.728.728,0,0,1,.217.7.716.716,0,0,1-.516.559.7.7,0,0,1-.738-.187c-.283-.278-.558-.568-.833-.853a2.138,2.138,0,0,1-.14-.192c-.112.349-.2.634-.29.919-.261.836-.519,1.672-.784,2.5a.713.713,0,0,1-.658.522l-.057,0A.733.733,0,0,1,11.3,18.263Zm.645-9.676c-.02.059-.037.117-.057.176-.2.64-.4,1.278-.6,1.92a.834.834,0,0,1-.614.612c-.21.057-.416.126-.623.19l-1.5.47c.081.029.121.045.161.056.646.2,1.292.4,1.939.588a.863.863,0,0,1,.637.635c.19.649.4,1.293.6,1.94.02.061.042.12.082.227.232-.746.455-1.438.662-2.133a.858.858,0,0,1,.621-.629c.643-.19,1.281-.4,1.92-.594.06-.018.12-.04.227-.077-.112-.038-.167-.059-.226-.077-.639-.2-1.277-.4-1.918-.6a.856.856,0,0,1-.624-.626c-.143-.494-.3-.984-.454-1.476-.063-.2-.13-.406-.2-.61Z"
+                      fill="#31458e"/>
+                </svg>
+              </label>
+              <input type="search" class="head-form__field" id="dest" placeholder="Type Destination name">
+
+              <button type="submit" class="head-form__btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15.551" height="15.5" viewBox="0 0 15.551 15.5">
+                  <path
+                      d="M8.848,0A6.149,6.149,0,0,0,4.117,10.081L.173,14A.586.586,0,1,0,1,14.83l3.949-3.922a6.149,6.149,0,0,0,6.912.611.586.586,0,0,0-.574-1.021,4.978,4.978,0,1,1,1.892-1.881A.586.586,0,0,0,14.2,9.2,6.154,6.154,0,0,0,8.848,0Z"
+                      transform="translate(0.301 0.25)" fill="#b9b9b9" stroke="#b9b9b9" stroke-width="0.5"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </header>
+
+        <div class="wrap wrap_30">
+          <div class="best grid-3">
+            <div class="best__top">
+              <div class="badge">
+                <a href="#" class="badge__info">
+                  <svg class="badge__icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                       viewBox="0 0 14.616 14.616">
+                    <path
+                        d="M81.567,118.621l.055,0,3.236-.312a.568.568,0,0,0,.513-.565v-4.173a.568.568,0,0,0-.86-.487c-.08.048-1.985,1.222-3.467,4.752a.568.568,0,0,0,.523.788Zm2.669-3.8v2.407l-1.742.168A10.817,10.817,0,0,1,84.236,114.818Z"
+                        transform="translate(-78.511 -109.739)"></path>
+                    <path
+                        d="M14.5,9.305a.572.572,0,0,0-.5-.223l-5.066.4V8.306l4.288-.257a.571.571,0,0,0,.529-.663,10.242,10.242,0,0,0-.9-2.585A12.125,12.125,0,0,0,8.77.1.571.571,0,0,0,8.45,0H8.364a.571.571,0,0,0-.571.571v9l-7.267.568A.571.571,0,0,0,0,10.705v1.47a2.444,2.444,0,0,0,2.441,2.441h7.836a.571.571,0,1,0,0-1.142H2.441a1.3,1.3,0,0,1-1.3-1.3v-.942L13.078,10.3a5.5,5.5,0,0,1-.845,1.107.571.571,0,0,0,.038.807.6.6,0,0,0,.085.064.569.569,0,0,0,.722-.1,6.293,6.293,0,0,0,1.5-2.33A.571.571,0,0,0,14.5,9.305ZM8.935,1.644a11.028,11.028,0,0,1,2.873,3.621,10.559,10.559,0,0,1,.663,1.685l-3.536.212Z"
+                        transform="translate(0 0)"></path>
+                  </svg>
+
+                  <span class="badge__count">1 357 boats</span>
+                </a>
+              </div>
+
+              <a href="#" class="best__link best-img">
+                <picture>
+                  <source srcset="/img/best/croatia.jpg, /img/best/croatia@2x.jpg 2x"
+                          media="(min-width: 1200px)">
+                  <img src="/img/best/croatia.jpg" width="393" height="200" alt="team">
+                </picture>
+              </a>
+            </div>
+
+            <div class="best-info">
+              <div class="best-info-header">
+                <div class="best-info-header__title-wrap">
+                  <a href="#" class="best-info__title best-info__title_croatia">Croatia</a>
+                </div>
+
+                <div class="best-info__price"><span>from</span> 75 €/week</div>
+              </div>
+
+              <p class="best-info__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
+                ipsum.
+              </p>
+            </div>
+          </div>
+
+          <div class="best grid-3">
+            <div class="best__top">
+              <a href="#" class="best__link best-img">
+                <picture>
+                  <source srcset="/img/best/croatia.jpg, /img/best/croatia@2x.jpg 2x"
+                          media="(min-width: 1200px)">
+                  <img src="/img/best/croatia.jpg" width="393" height="200" alt="team">
+                </picture>
+              </a>
+            </div>
+
+            <div class="best-info">
+              <div class="best-info-header">
+                <div class="best-info-header__title-wrap">
+                  <a href="#" class="best-info__title best-info__title_italy">Italy</a>
+                </div>
+                <div class="best-info__price"><span>from</span> 75 €/week</div>
+              </div>
+
+              <p class="best-info__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
+                ipsum.
+              </p>
+            </div>
+          </div>
+
+          <div class="best grid-3">
+            <div class="best__top">
+              <div class="badge">
+                <a href="#" class="badge__info">
+                  <svg class="badge__icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                       viewBox="0 0 14.616 14.616">
+                    <path
+                        d="M81.567,118.621l.055,0,3.236-.312a.568.568,0,0,0,.513-.565v-4.173a.568.568,0,0,0-.86-.487c-.08.048-1.985,1.222-3.467,4.752a.568.568,0,0,0,.523.788Zm2.669-3.8v2.407l-1.742.168A10.817,10.817,0,0,1,84.236,114.818Z"
+                        transform="translate(-78.511 -109.739)"></path>
+                    <path
+                        d="M14.5,9.305a.572.572,0,0,0-.5-.223l-5.066.4V8.306l4.288-.257a.571.571,0,0,0,.529-.663,10.242,10.242,0,0,0-.9-2.585A12.125,12.125,0,0,0,8.77.1.571.571,0,0,0,8.45,0H8.364a.571.571,0,0,0-.571.571v9l-7.267.568A.571.571,0,0,0,0,10.705v1.47a2.444,2.444,0,0,0,2.441,2.441h7.836a.571.571,0,1,0,0-1.142H2.441a1.3,1.3,0,0,1-1.3-1.3v-.942L13.078,10.3a5.5,5.5,0,0,1-.845,1.107.571.571,0,0,0,.038.807.6.6,0,0,0,.085.064.569.569,0,0,0,.722-.1,6.293,6.293,0,0,0,1.5-2.33A.571.571,0,0,0,14.5,9.305ZM8.935,1.644a11.028,11.028,0,0,1,2.873,3.621,10.559,10.559,0,0,1,.663,1.685l-3.536.212Z"
+                        transform="translate(0 0)"></path>
+                  </svg>
+
+                  <span class="badge__count">1 357 boats</span>
+                </a>
+              </div>
+
+              <a href="#" class="best__link best-img">
+                <picture>
+                  <source srcset="/img/best/france.jpg, /img/best/france@2x.jpg 2x"
+                          media="(min-width: 1200px)">
+                  <img src="/img/best/france.jpg" width="393" height="200" alt="team">
+                </picture>
+              </a>
+            </div>
+
+            <div class="best-info">
+              <div class="best-info-header">
+                <div class="best-info-header__title-wrap">
+                  <a href="#" class="best-info__title best-info__title_greece">Greece</a>
+                </div>
+
+                <div class="best-info__price"><span>from</span> 75 €/week</div>
+              </div>
+
+              <p class="best-info__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
+                ipsum.
+              </p>
+            </div>
+          </div>
+
+          <div class="best grid-3">
+            <div class="best__top">
+              <div class="badge">
+                <a href="#" class="badge__info">
+                  <svg class="badge__icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                       viewBox="0 0 14.616 14.616">
+                    <path
+                        d="M81.567,118.621l.055,0,3.236-.312a.568.568,0,0,0,.513-.565v-4.173a.568.568,0,0,0-.86-.487c-.08.048-1.985,1.222-3.467,4.752a.568.568,0,0,0,.523.788Zm2.669-3.8v2.407l-1.742.168A10.817,10.817,0,0,1,84.236,114.818Z"
+                        transform="translate(-78.511 -109.739)"></path>
+                    <path
+                        d="M14.5,9.305a.572.572,0,0,0-.5-.223l-5.066.4V8.306l4.288-.257a.571.571,0,0,0,.529-.663,10.242,10.242,0,0,0-.9-2.585A12.125,12.125,0,0,0,8.77.1.571.571,0,0,0,8.45,0H8.364a.571.571,0,0,0-.571.571v9l-7.267.568A.571.571,0,0,0,0,10.705v1.47a2.444,2.444,0,0,0,2.441,2.441h7.836a.571.571,0,1,0,0-1.142H2.441a1.3,1.3,0,0,1-1.3-1.3v-.942L13.078,10.3a5.5,5.5,0,0,1-.845,1.107.571.571,0,0,0,.038.807.6.6,0,0,0,.085.064.569.569,0,0,0,.722-.1,6.293,6.293,0,0,0,1.5-2.33A.571.571,0,0,0,14.5,9.305ZM8.935,1.644a11.028,11.028,0,0,1,2.873,3.621,10.559,10.559,0,0,1,.663,1.685l-3.536.212Z"
+                        transform="translate(0 0)"></path>
+                  </svg>
+
+                  <span class="badge__count">1 357 boats</span>
+                </a>
+              </div>
+
+              <a href="#" class="best__link best-img">
+                <picture>
+                  <source srcset="/img/best/portugal.jpg, /img/best/portugal@2x.jpg 2x"
+                          media="(min-width: 1200px)">
+                  <img src="/img/best/portugal.jpg" width="393" height="200" alt="team">
+                </picture>
+              </a>
+            </div>
+
+            <div class="best-info">
+              <div class="best-info-header">
+                <div class="best-info-header__title-wrap">
+                  <a href="#" class="best-info__title best-info__title_portugal">Portugal</a>
+                </div>
+
+                <div class="best-info__price"><span>from</span> 75 €/week</div>
+              </div>
+
+              <p class="best-info__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
+                ipsum.
+              </p>
+            </div>
+          </div>
+
+          <div class="best grid-3">
+            <div class="best__top">
+              <a href="#" class="best__link best-img">
+                <picture>
+                  <source srcset="/img/best/croatia.jpg, /img/best/croatia@2x.jpg 2x"
+                          media="(min-width: 1200px)">
+                  <img src="/img/best/croatia.jpg" width="393" height="200" alt="team">
+                </picture>
+              </a>
+            </div>
+
+            <div class="best-info">
+              <div class="best-info-header">
+                <div class="best-info-header__title-wrap">
+                  <a href="#" class="best-info__title best-info__title_caribbean">caribbean</a>
+                </div>
+
+                <div class="best-info__price"><span>from</span> 75 €/week</div>
+              </div>
+
+              <p class="best-info__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis,
+                ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="button-wrap">
+          <button class="button default button-default center">
+            <span class="button__shadow"></span>
+            <span class="button__text">View more</span>
+          </button>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
