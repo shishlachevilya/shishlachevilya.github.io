@@ -526,6 +526,10 @@ template {
   background-color: #fcfcfc;
 }
 
+.header__wrap {
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
 .header__top {
   margin: 0 20px;
 }
@@ -1682,13 +1686,14 @@ template {
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
   padding: 20px;
   background-color: #08396f;
 }
 
 .footer__wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
@@ -2459,6 +2464,10 @@ template {
   .footer {
     flex-direction: row;
     padding: 54px 2% 60px;
+  }
+
+  .footer__wrap {
+    flex-direction: row;
   }
 
   .footer__row {
