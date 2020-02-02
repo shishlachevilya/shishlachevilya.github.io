@@ -1684,7 +1684,11 @@ template {
 .footer {
   display: flex;
   flex-direction: column;
+  padding: 20px;
   background-color: #08396f;
+}
+
+.footer__wrap {
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
@@ -2216,7 +2220,7 @@ template {
   }
 
   .footer {
-    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    padding: 20px 20px 60px;
   }
 
   .footer__row {
@@ -2454,7 +2458,7 @@ template {
 
   .footer {
     flex-direction: row;
-    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    padding: 54px 2% 60px;
   }
 
   .footer__row {
