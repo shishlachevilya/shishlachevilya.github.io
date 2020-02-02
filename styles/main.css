@@ -70,18 +70,22 @@ img {
   display: none;
 }
 
+.no-js .adaptive-list__item_btn-open,
 .isOpen .adaptive-list__item_btn-open {
   display: none;
 }
 
+.no-js .adaptive-list__item_btn-close,
 .isOpen .adaptive-list__item_btn-close {
   display: block;
 }
 
+.no-js .blue-logo,
 .isOpen .blue-logo {
   display: none;
 }
 
+.no-js .white-logo,
 .isOpen .white-logo {
   display: block;
   margin: auto;
@@ -1973,6 +1977,7 @@ template {
     display: none;
   }
 
+  .no-js .white-logo,
   .isOpen .white-logo {
     transform: translateX(50%);
   }
@@ -2577,24 +2582,31 @@ template {
 }
 
 @media only screen and (max-width: 1365px) {
+  .no-js .header,
   .isOpen .header {
     background-color: #08396f;
   }
 
+  .no-js .nav-list__link,
+  .no-js .nav-dropdown__link,
   .isOpen .nav-list__link,
   .isOpen .nav-dropdown__link {
     color: #ffffff;
   }
 
+  .no-js .nav-dropdown__icon,
   .isOpen .nav-dropdown__icon {
     stroke: #ffffff;
   }
 
+  .no-js .nav-dropdown__icon,
+  .no-js .nav-compare__icon,
   .isOpen .nav-dropdown__icon,
   .isOpen .nav-compare__icon {
     fill: #ffffff;
   }
 
+  .no-js .nav__inner,
   .isOpen .nav__inner {
     display: block;
   }
@@ -2602,7 +2614,7 @@ template {
   .nav__inner {
     display: none;
     margin: 0 -20px;
-    padding: 30px 0;
+    padding: 30px 0 60px;
     background-color: #08396f;
     background-image: url("../../img/menu-bg.png");
     background-size: 600px 500px;
@@ -2753,6 +2765,7 @@ template {
 }
 
 @media only screen and (max-width: 1365px) and (min-width: 1366px) {
+  .no-js .nav__inner,
   .isOpen .nav__inner {
     display: flex;
   }
