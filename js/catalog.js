@@ -155,6 +155,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/data/countries.json":
+/*!*********************************!*\
+  !*** ./src/data/countries.json ***!
+  \*********************************/
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"name\":\"Afghanistan\",\"code\":\"AF\"},{\"name\":\"Åland Islands\",\"code\":\"AX\"},{\"name\":\"Albania\",\"code\":\"AL\"},{\"name\":\"Algeria\",\"code\":\"DZ\"},{\"name\":\"American Samoa\",\"code\":\"AS\"},{\"name\":\"AndorrA\",\"code\":\"AD\"},{\"name\":\"Angola\",\"code\":\"AO\"},{\"name\":\"Anguilla\",\"code\":\"AI\"},{\"name\":\"Antarctica\",\"code\":\"AQ\"},{\"name\":\"Antigua and Barbuda\",\"code\":\"AG\"},{\"name\":\"Argentina\",\"code\":\"AR\"},{\"name\":\"Armenia\",\"code\":\"AM\"},{\"name\":\"Aruba\",\"code\":\"AW\"},{\"name\":\"Australia\",\"code\":\"AU\"},{\"name\":\"Austria\",\"code\":\"AT\"},{\"name\":\"Azerbaijan\",\"code\":\"AZ\"},{\"name\":\"Bahamas\",\"code\":\"BS\"},{\"name\":\"Bahrain\",\"code\":\"BH\"},{\"name\":\"Bangladesh\",\"code\":\"BD\"},{\"name\":\"Barbados\",\"code\":\"BB\"},{\"name\":\"Belarus\",\"code\":\"BY\"},{\"name\":\"Belgium\",\"code\":\"BE\"},{\"name\":\"Belize\",\"code\":\"BZ\"},{\"name\":\"Benin\",\"code\":\"BJ\"},{\"name\":\"Bermuda\",\"code\":\"BM\"},{\"name\":\"Bhutan\",\"code\":\"BT\"},{\"name\":\"Bolivia\",\"code\":\"BO\"},{\"name\":\"Bosnia and Herzegovina\",\"code\":\"BA\"},{\"name\":\"Botswana\",\"code\":\"BW\"},{\"name\":\"Bouvet Island\",\"code\":\"BV\"},{\"name\":\"Brazil\",\"code\":\"BR\"},{\"name\":\"British Indian Ocean Territory\",\"code\":\"IO\"},{\"name\":\"Brunei Darussalam\",\"code\":\"BN\"},{\"name\":\"Bulgaria\",\"code\":\"BG\"},{\"name\":\"Burkina Faso\",\"code\":\"BF\"},{\"name\":\"Burundi\",\"code\":\"BI\"},{\"name\":\"Cambodia\",\"code\":\"KH\"},{\"name\":\"Cameroon\",\"code\":\"CM\"},{\"name\":\"Canada\",\"code\":\"CA\"},{\"name\":\"Cape Verde\",\"code\":\"CV\"},{\"name\":\"Cayman Islands\",\"code\":\"KY\"},{\"name\":\"Central African Republic\",\"code\":\"CF\"},{\"name\":\"Chad\",\"code\":\"TD\"},{\"name\":\"Chile\",\"code\":\"CL\"},{\"name\":\"China\",\"code\":\"CN\"},{\"name\":\"Christmas Island\",\"code\":\"CX\"},{\"name\":\"Cocos (Keeling) Islands\",\"code\":\"CC\"},{\"name\":\"Colombia\",\"code\":\"CO\"},{\"name\":\"Comoros\",\"code\":\"KM\"},{\"name\":\"Congo\",\"code\":\"CG\"},{\"name\":\"Congo, The Democratic Republic of the\",\"code\":\"CD\"},{\"name\":\"Cook Islands\",\"code\":\"CK\"},{\"name\":\"Costa Rica\",\"code\":\"CR\"},{\"name\":\"Cote D\\\"Ivoire\",\"code\":\"CI\"},{\"name\":\"Croatia\",\"code\":\"HR\"},{\"name\":\"Cuba\",\"code\":\"CU\"},{\"name\":\"Cyprus\",\"code\":\"CY\"},{\"name\":\"Czech Republic\",\"code\":\"CZ\"},{\"name\":\"Denmark\",\"code\":\"DK\"},{\"name\":\"Djibouti\",\"code\":\"DJ\"},{\"name\":\"Dominica\",\"code\":\"DM\"},{\"name\":\"Dominican Republic\",\"code\":\"DO\"},{\"name\":\"Ecuador\",\"code\":\"EC\"},{\"name\":\"Egypt\",\"code\":\"EG\"},{\"name\":\"El Salvador\",\"code\":\"SV\"},{\"name\":\"Equatorial Guinea\",\"code\":\"GQ\"},{\"name\":\"Eritrea\",\"code\":\"ER\"},{\"name\":\"Estonia\",\"code\":\"EE\"},{\"name\":\"Ethiopia\",\"code\":\"ET\"},{\"name\":\"Falkland Islands (Malvinas)\",\"code\":\"FK\"},{\"name\":\"Faroe Islands\",\"code\":\"FO\"},{\"name\":\"Fiji\",\"code\":\"FJ\"},{\"name\":\"Finland\",\"code\":\"FI\"},{\"name\":\"France\",\"code\":\"FR\"},{\"name\":\"French Guiana\",\"code\":\"GF\"},{\"name\":\"French Polynesia\",\"code\":\"PF\"},{\"name\":\"French Southern Territories\",\"code\":\"TF\"},{\"name\":\"Gabon\",\"code\":\"GA\"},{\"name\":\"Gambia\",\"code\":\"GM\"},{\"name\":\"Georgia\",\"code\":\"GE\"},{\"name\":\"Germany\",\"code\":\"DE\"},{\"name\":\"Ghana\",\"code\":\"GH\"},{\"name\":\"Gibraltar\",\"code\":\"GI\"},{\"name\":\"Greece\",\"code\":\"GR\"},{\"name\":\"Greenland\",\"code\":\"GL\"},{\"name\":\"Grenada\",\"code\":\"GD\"},{\"name\":\"Guadeloupe\",\"code\":\"GP\"},{\"name\":\"Guam\",\"code\":\"GU\"},{\"name\":\"Guatemala\",\"code\":\"GT\"},{\"name\":\"Guernsey\",\"code\":\"GG\"},{\"name\":\"Guinea\",\"code\":\"GN\"},{\"name\":\"Guinea-Bissau\",\"code\":\"GW\"},{\"name\":\"Guyana\",\"code\":\"GY\"},{\"name\":\"Haiti\",\"code\":\"HT\"},{\"name\":\"Heard Island and Mcdonald Islands\",\"code\":\"HM\"},{\"name\":\"Holy See (Vatican City State)\",\"code\":\"VA\"},{\"name\":\"Honduras\",\"code\":\"HN\"},{\"name\":\"Hong Kong\",\"code\":\"HK\"},{\"name\":\"Hungary\",\"code\":\"HU\"},{\"name\":\"Iceland\",\"code\":\"IS\"},{\"name\":\"India\",\"code\":\"IN\"},{\"name\":\"Indonesia\",\"code\":\"ID\"},{\"name\":\"Iran, Islamic Republic Of\",\"code\":\"IR\"},{\"name\":\"Iraq\",\"code\":\"IQ\"},{\"name\":\"Ireland\",\"code\":\"IE\"},{\"name\":\"Isle of Man\",\"code\":\"IM\"},{\"name\":\"Israel\",\"code\":\"IL\"},{\"name\":\"Italy\",\"code\":\"IT\"},{\"name\":\"Jamaica\",\"code\":\"JM\"},{\"name\":\"Japan\",\"code\":\"JP\"},{\"name\":\"Jersey\",\"code\":\"JE\"},{\"name\":\"Jordan\",\"code\":\"JO\"},{\"name\":\"Kazakhstan\",\"code\":\"KZ\"},{\"name\":\"Kenya\",\"code\":\"KE\"},{\"name\":\"Kiribati\",\"code\":\"KI\"},{\"name\":\"Korea, Democratic People\",\"code\":\"KP\"},{\"name\":\"Korea, Republic of\",\"code\":\"KR\"},{\"name\":\"Kuwait\",\"code\":\"KW\"},{\"name\":\"Kyrgyzstan\",\"code\":\"KG\"},{\"name\":\"Lao People\",\"code\":\"LA\"},{\"name\":\"Latvia\",\"code\":\"LV\"},{\"name\":\"Lebanon\",\"code\":\"LB\"},{\"name\":\"Lesotho\",\"code\":\"LS\"},{\"name\":\"Liberia\",\"code\":\"LR\"},{\"name\":\"Libyan Arab Jamahiriya\",\"code\":\"LY\"},{\"name\":\"Liechtenstein\",\"code\":\"LI\"},{\"name\":\"Lithuania\",\"code\":\"LT\"},{\"name\":\"Luxembourg\",\"code\":\"LU\"},{\"name\":\"Macao\",\"code\":\"MO\"},{\"name\":\"Macedonia, The Former Yugoslav Republic of\",\"code\":\"MK\"},{\"name\":\"Madagascar\",\"code\":\"MG\"},{\"name\":\"Malawi\",\"code\":\"MW\"},{\"name\":\"Malaysia\",\"code\":\"MY\"},{\"name\":\"Maldives\",\"code\":\"MV\"},{\"name\":\"Mali\",\"code\":\"ML\"},{\"name\":\"Malta\",\"code\":\"MT\"},{\"name\":\"Marshall Islands\",\"code\":\"MH\"},{\"name\":\"Martinique\",\"code\":\"MQ\"},{\"name\":\"Mauritania\",\"code\":\"MR\"},{\"name\":\"Mauritius\",\"code\":\"MU\"},{\"name\":\"Mayotte\",\"code\":\"YT\"},{\"name\":\"Mexico\",\"code\":\"MX\"},{\"name\":\"Micronesia, Federated States of\",\"code\":\"FM\"},{\"name\":\"Moldova, Republic of\",\"code\":\"MD\"},{\"name\":\"Monaco\",\"code\":\"MC\"},{\"name\":\"Mongolia\",\"code\":\"MN\"},{\"name\":\"Montserrat\",\"code\":\"MS\"},{\"name\":\"Morocco\",\"code\":\"MA\"},{\"name\":\"Mozambique\",\"code\":\"MZ\"},{\"name\":\"Myanmar\",\"code\":\"MM\"},{\"name\":\"Namibia\",\"code\":\"NA\"},{\"name\":\"Nauru\",\"code\":\"NR\"},{\"name\":\"Nepal\",\"code\":\"NP\"},{\"name\":\"Netherlands\",\"code\":\"NL\"},{\"name\":\"Netherlands Antilles\",\"code\":\"AN\"},{\"name\":\"New Caledonia\",\"code\":\"NC\"},{\"name\":\"New Zealand\",\"code\":\"NZ\"},{\"name\":\"Nicaragua\",\"code\":\"NI\"},{\"name\":\"Niger\",\"code\":\"NE\"},{\"name\":\"Nigeria\",\"code\":\"NG\"},{\"name\":\"Niue\",\"code\":\"NU\"},{\"name\":\"Norfolk Island\",\"code\":\"NF\"},{\"name\":\"Northern Mariana Islands\",\"code\":\"MP\"},{\"name\":\"Norway\",\"code\":\"NO\"},{\"name\":\"Oman\",\"code\":\"OM\"},{\"name\":\"Pakistan\",\"code\":\"PK\"},{\"name\":\"Palau\",\"code\":\"PW\"},{\"name\":\"Palestinian Territory, Occupied\",\"code\":\"PS\"},{\"name\":\"Panama\",\"code\":\"PA\"},{\"name\":\"Papua New Guinea\",\"code\":\"PG\"},{\"name\":\"Paraguay\",\"code\":\"PY\"},{\"name\":\"Peru\",\"code\":\"PE\"},{\"name\":\"Philippines\",\"code\":\"PH\"},{\"name\":\"Pitcairn\",\"code\":\"PN\"},{\"name\":\"Poland\",\"code\":\"PL\"},{\"name\":\"Portugal\",\"code\":\"PT\"},{\"name\":\"Puerto Rico\",\"code\":\"PR\"},{\"name\":\"Qatar\",\"code\":\"QA\"},{\"name\":\"Reunion\",\"code\":\"RE\"},{\"name\":\"Romania\",\"code\":\"RO\"},{\"name\":\"Russian Federation\",\"code\":\"RU\"},{\"name\":\"RWANDA\",\"code\":\"RW\"},{\"name\":\"Saint Helena\",\"code\":\"SH\"},{\"name\":\"Saint Kitts and Nevis\",\"code\":\"KN\"},{\"name\":\"Saint Lucia\",\"code\":\"LC\"},{\"name\":\"Saint Pierre and Miquelon\",\"code\":\"PM\"},{\"name\":\"Saint Vincent and the Grenadines\",\"code\":\"VC\"},{\"name\":\"Samoa\",\"code\":\"WS\"},{\"name\":\"San Marino\",\"code\":\"SM\"},{\"name\":\"Sao Tome and Principe\",\"code\":\"ST\"},{\"name\":\"Saudi Arabia\",\"code\":\"SA\"},{\"name\":\"Senegal\",\"code\":\"SN\"},{\"name\":\"Serbia and Montenegro\",\"code\":\"CS\"},{\"name\":\"Seychelles\",\"code\":\"SC\"},{\"name\":\"Sierra Leone\",\"code\":\"SL\"},{\"name\":\"Singapore\",\"code\":\"SG\"},{\"name\":\"Slovakia\",\"code\":\"SK\"},{\"name\":\"Slovenia\",\"code\":\"SI\"},{\"name\":\"Solomon Islands\",\"code\":\"SB\"},{\"name\":\"Somalia\",\"code\":\"SO\"},{\"name\":\"South Africa\",\"code\":\"ZA\"},{\"name\":\"South Georgia and the South Sandwich Islands\",\"code\":\"GS\"},{\"name\":\"Spain\",\"code\":\"ES\"},{\"name\":\"Sri Lanka\",\"code\":\"LK\"},{\"name\":\"Sudan\",\"code\":\"SD\"},{\"name\":\"Suriname\",\"code\":\"SR\"},{\"name\":\"Svalbard and Jan Mayen\",\"code\":\"SJ\"},{\"name\":\"Swaziland\",\"code\":\"SZ\"},{\"name\":\"Sweden\",\"code\":\"SE\"},{\"name\":\"Switzerland\",\"code\":\"CH\"},{\"name\":\"Syrian Arab Republic\",\"code\":\"SY\"},{\"name\":\"Taiwan, Province of China\",\"code\":\"TW\"},{\"name\":\"Tajikistan\",\"code\":\"TJ\"},{\"name\":\"Tanzania, United Republic of\",\"code\":\"TZ\"},{\"name\":\"Thailand\",\"code\":\"TH\"},{\"name\":\"Timor-Leste\",\"code\":\"TL\"},{\"name\":\"Togo\",\"code\":\"TG\"},{\"name\":\"Tokelau\",\"code\":\"TK\"},{\"name\":\"Tonga\",\"code\":\"TO\"},{\"name\":\"Trinidad and Tobago\",\"code\":\"TT\"},{\"name\":\"Tunisia\",\"code\":\"TN\"},{\"name\":\"Turkey\",\"code\":\"TR\"},{\"name\":\"Turkmenistan\",\"code\":\"TM\"},{\"name\":\"Turks and Caicos Islands\",\"code\":\"TC\"},{\"name\":\"Tuvalu\",\"code\":\"TV\"},{\"name\":\"Uganda\",\"code\":\"UG\"},{\"name\":\"Ukraine\",\"code\":\"UA\"},{\"name\":\"United Arab Emirates\",\"code\":\"AE\"},{\"name\":\"United Kingdom\",\"code\":\"GB\"},{\"name\":\"United States\",\"code\":\"US\"},{\"name\":\"United States Minor Outlying Islands\",\"code\":\"UM\"},{\"name\":\"Uruguay\",\"code\":\"UY\"},{\"name\":\"Uzbekistan\",\"code\":\"UZ\"},{\"name\":\"Vanuatu\",\"code\":\"VU\"},{\"name\":\"Venezuela\",\"code\":\"VE\"},{\"name\":\"Viet Nam\",\"code\":\"VN\"},{\"name\":\"Virgin Islands, British\",\"code\":\"VG\"},{\"name\":\"Virgin Islands, U.S.\",\"code\":\"VI\"},{\"name\":\"Wallis and Futuna\",\"code\":\"WF\"},{\"name\":\"Western Sahara\",\"code\":\"EH\"},{\"name\":\"Yemen\",\"code\":\"YE\"},{\"name\":\"Zambia\",\"code\":\"ZM\"},{\"name\":\"Zimbabwe\",\"code\":\"ZW\"}]");
+
+/***/ }),
+
 /***/ "./src/js/import/pages/catalog.js":
 /*!****************************************!*\
   !*** ./src/js/import/pages/catalog.js ***!
@@ -168,14 +179,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _libs_slider_jquery_ui_min__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../libs/slider/jquery-ui.min */ "./src/libs/slider/jquery-ui.min.js");
 /* harmony import */ var _libs_slider_jquery_ui_min__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_libs_slider_jquery_ui_min__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _libs_select_customselect_min__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../libs/select/customselect.min */ "./src/libs/select/customselect.min.js");
-/* harmony import */ var _libs_select_customselect_min__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_libs_select_customselect_min__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _libs_popup_jquery_magnific_popup_min__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../libs/popup/jquery.magnific-popup.min */ "./src/libs/popup/jquery.magnific-popup.min.js");
+/* harmony import */ var _libs_popup_jquery_magnific_popup_min__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_libs_popup_jquery_magnific_popup_min__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _libs_touch_touch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../libs/touch/touch */ "./src/libs/touch/touch.js");
+/* harmony import */ var _libs_touch_touch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_libs_touch_touch__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _data_countries__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../data/countries */ "./src/data/countries.json");
+var _data_countries__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../data/countries */ "./src/data/countries.json", 1);
+
+
 
 
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()("#demo").customselect({
-    "numitems": 1
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".card-favorite__btn").on("click", function () {
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).parent().toggleClass("active");
+  }); // popup close
+
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.mfp-close').on('click', function () {
+    var magnificPopup = jquery__WEBPACK_IMPORTED_MODULE_0___default.a.magnificPopup.instance;
+    magnificPopup.close();
   }); // Select sort by
 
   var Select = function Select(node) {
@@ -204,10 +226,10 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     };
 
     self.open = function (node) {
-      event.target.classList.add("arrow-up");
+      event.target.classList.toggle("arrow-up");
 
       if (node.nextElementSibling !== null) {
-        node.nextElementSibling.classList.add("open");
+        node.nextElementSibling.classList.toggle("open");
       }
     };
 
@@ -238,22 +260,11 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     e.stopPropagation();
   }); //  toggle
 
-  var filterButtons = document.querySelectorAll(".filter-button");
-
-  function toggleFields() {
-    this.classList.toggle("open");
-    var panel = this.nextElementSibling;
-
-    if (panel.style.display === "none") {
-      panel.style.display = "block";
-    } else {
-      panel.style.display = "none";
-    }
-  }
-
-  for (var _i = 0; _i < filterButtons.length; _i++) {
-    filterButtons[_i].addEventListener("click", toggleFields);
-  } // range slider price
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".filter-button").click(function () {
+    var self = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
+    self.toggleClass("open");
+    self.next().slideToggle(300);
+  }); // range slider price
 
   /*
   * data-gfrom - min величина
@@ -261,7 +272,6 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
   * data-lfrom - min значение которое показывается при загрузке
   * data-lto - max значение которое показывается при загрузке
   * */
-
 
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangePrice').slider({
     range: true,
@@ -303,7 +313,49 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     }
   });
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeFromLength').val("".concat((jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength').slider('values', 0) * 3.2808).toFixed(0), "ft/").concat(jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength').slider('values', 0), "m"));
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeToLength').val("".concat((jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength').slider('values', 1) * 3.2808).toFixed(0), "ft/").concat(jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength').slider('values', 1), "m")); //num +1
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeToLength').val("".concat((jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength').slider('values', 1) * 3.2808).toFixed(0), "ft/").concat(jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength').slider('values', 1), "m")); //задвоил для попапа
+
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangePrice2').slider({
+    range: true,
+    step: 1000,
+    min: jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangePrice2').data('gfrom'),
+    max: jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangePrice2').data('gto'),
+    values: [jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangePrice2').data('lfrom'), jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangePrice2').data('lto')],
+    slide: function slide(event, ui) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeFromPrice2').val(ui.values[0]);
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeToPrice2').val(ui.values[1]);
+    }
+  });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeFromPrice2').val(jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangePrice2').slider('values', 0));
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeToPrice2').val(jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangePrice2').slider('values', 1)); // range slider year
+
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeYear2').slider({
+    range: true,
+    step: 1,
+    min: jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeYear2').data('gfrom'),
+    max: jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeYear2').data('gto'),
+    values: [jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeYear2').data('lfrom'), jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeYear2').data('lto')],
+    slide: function slide(event, ui) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeFromYear2').val(ui.values[0]);
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeToYear2').val(ui.values[1]);
+    }
+  });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeFromYear2').val(jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeYear2').slider('values', 0));
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeToYear2').val(jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeYear2').slider('values', 1)); //  range slider length
+
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength2').slider({
+    range: true,
+    step: 1,
+    min: jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength2').data('gfrom'),
+    max: jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength2').data('gto'),
+    values: [jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength2').data('lfrom'), jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength2').data('lto')],
+    slide: function slide(event, ui) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeFromLength2').val("".concat((ui.values[0] * 3.2808).toFixed(0), "ft/").concat(ui.values[0], "m"));
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeToLength2').val("".concat((ui.values[1] * 3.2808).toFixed(0), "ft/").concat(ui.values[1], "m"));
+    }
+  });
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeFromLength2').val("".concat((jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength2').slider('values', 0) * 3.2808).toFixed(0), "ft/").concat(jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength2').slider('values', 0), "m"));
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeToLength2').val("".concat((jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength2').slider('values', 1) * 3.2808).toFixed(0), "ft/").concat(jquery__WEBPACK_IMPORTED_MODULE_0___default()('#rangeLength2').slider('values', 1), "m")); //num +1
 
   var addBasket = function addBasket(node) {
     var self = this;
@@ -336,13 +388,13 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
 
   var basket = document.querySelectorAll("[data-add]");
 
-  for (var _i2 = 0; _i2 < basket.length; _i2++) {
-    var add = new addBasket(basket[_i2]);
+  for (var _i = 0; _i < basket.length; _i++) {
+    var add = new addBasket(basket[_i]);
     add.init();
   } //  toggle map
 
 
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".catalog-map__btn").click(function () {
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".open-map-js").click(function () {
     jquery__WEBPACK_IMPORTED_MODULE_0___default()(".catalog-map").toggleClass("open");
   }); //  data picker
 
@@ -376,248 +428,860 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
 
       return date;
     }
+  }); // Search
+
+  var input = document.querySelector("#search-field");
+  var list = document.querySelector("#search-list");
+  input.addEventListener("keyup", complete);
+  input.addEventListener("focus", focusField);
+  input.addEventListener("blur", focusoutField);
+  list.addEventListener("click", selectWord);
+
+  function complete() {
+    var val = input.value.trim().toLocaleLowerCase();
+
+    if (val) {
+      var words = _data_countries__WEBPACK_IMPORTED_MODULE_4__.filter(function (county) {
+        return county.name.toLocaleLowerCase().indexOf(val) === 0;
+      });
+      list.innerHTML = renderHtml(words);
+      list.style.display = "block";
+    } else {
+      list.style.display = "none";
+    }
+  }
+
+  function selectWord(e) {
+    e.preventDefault();
+    var target = e.target;
+
+    if (target.parentNode.nodeName === "LI") {
+      input.value = target.innerHTML;
+      list.style.display = "none";
+    }
+  }
+
+  function renderHtml(arr) {
+    var html = "";
+
+    for (var _i2 = 0; _i2 < arr.length; _i2++) {
+      html += "<li class=\"form-select__item\"><a href=\"#\">".concat(arr[_i2].name, "</a></li>");
+    }
+
+    return html;
+  }
+
+  function focusField(e) {
+    e.target.value = "";
+  }
+
+  function focusoutField(e) {
+    if (e.target.value === "") {
+      e.target.value = "Destination";
+    }
+  }
+
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).on('click', function (e) {
+    if (!jquery__WEBPACK_IMPORTED_MODULE_0___default()(e.target).closest(".search").length) {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()("#search-list").css("display", "none");
+    }
+
+    e.stopPropagation();
+  }); //  popup
+
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()('.popup-with-zoom-anim').magnificPopup({
+    type: 'inline',
+    fixedContentPos: false,
+    fixedBgPos: true,
+    overflowY: 'auto',
+    closeBtnInside: true,
+    preloader: false,
+    midClick: true,
+    removalDelay: 300,
+    mainClass: 'my-mfp-zoom-in'
   });
 });
 
 /***/ }),
 
-/***/ "./src/libs/select/customselect.min.js":
-/*!*********************************************!*\
-  !*** ./src/libs/select/customselect.min.js ***!
-  \*********************************************/
+/***/ "./src/libs/popup/jquery.magnific-popup.min.js":
+/*!*****************************************************!*\
+  !*** ./src/libs/popup/jquery.magnific-popup.min.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(jQuery) {function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+/* WEBPACK VAR INJECTION */(function(__webpack_provided_window_dot_jQuery) {/*! Magnific Popup - v0.9.9 - 2013-11-15
+* http://dimsemenov.com/plugins/magnific-popup/
+* Copyright (c) 2013 Dmitry Semenov; */
+(function (e) {
+  var t,
+      n,
+      i,
+      o,
+      r,
+      a,
+      s,
+      l = "Close",
+      c = "BeforeClose",
+      d = "AfterClose",
+      u = "BeforeAppend",
+      p = "MarkupParse",
+      f = "Open",
+      m = "Change",
+      g = "mfp",
+      v = "." + g,
+      h = "mfp-ready",
+      C = "mfp-removing",
+      y = "mfp-prevent-close",
+      w = function w() {},
+      b = !!__webpack_provided_window_dot_jQuery,
+      I = e(window),
+      x = function x(e, n) {
+    t.ev.on(g + e + v, n);
+  },
+      k = function k(t, n, i, o) {
+    var r = document.createElement("div");
+    return r.className = "mfp-" + t, i && (r.innerHTML = i), o ? n && n.appendChild(r) : (r = e(r), n && r.appendTo(n)), r;
+  },
+      T = function T(n, i) {
+    t.ev.triggerHandler(g + n, i), t.st.callbacks && (n = n.charAt(0).toLowerCase() + n.slice(1), t.st.callbacks[n] && t.st.callbacks[n].apply(t, e.isArray(i) ? i : [i]));
+  },
+      E = function E(n) {
+    return n === s && t.currTemplate.closeBtn || (t.currTemplate.closeBtn = e(t.st.closeMarkup.replace("%title%", t.st.tClose)), s = n), t.currTemplate.closeBtn;
+  },
+      _ = function _() {
+    e.magnificPopup.instance || (t = new w(), t.init(), e.magnificPopup.instance = t);
+  },
+      S = function S() {
+    var e = document.createElement("p").style,
+        t = ["ms", "O", "Moz", "Webkit"];
+    if (void 0 !== e.transition) return !0;
 
-/*!
- * jQuery Custom Select Plugin 1.9.1
- * 2014-09-03
- *
- * http://www.blissmedia.com.au/
- *
- * Copyright 2014 Bliss Media
- * Released under the MIT license:
- *   http://www.opensource.org/licenses/mit-license.php
- */
-!function (a) {
-  a.fn.customselect = function (b, c) {
-    var d = {
-      csclass: "custom-select",
-      search: !0,
-      numitems: 4,
-      searchblank: !1,
-      showblank: !0,
-      searchvalue: !1,
-      hoveropen: !1,
-      emptytext: "",
-      showdisabled: !1,
-      useoptionclass: !1,
-      mobilecheck: function mobilecheck() {
-        return navigator.platform && navigator.userAgent.match(/(android|iphone|ipad|blackberry)/i);
-      }
-    };
-    b && "object" == _typeof(b) && a.extend(d, b);
-    var e = "function" == typeof d.mobilecheck ? d.mobilecheck.call() : d.mobilecheck,
-        f = e ? a(this).filter("select") : a(this).filter("select:not([multiple])");
-    return f.each(function () {
-      var f = a(this);
-      f.data("cs-options") && a.extend(d, f.data("cs-options"));
-      var g = f.parents(d.selector + ":first"),
-          h = {
-        init: function init() {
-          var b = {
-            init: function init() {
-              b.container(), b.value(), b.subcontainer();
-            },
-            container: function container() {
-              g = a("<div/>").addClass(d.csclass), e && (g.addClass(d.csclass + "-mobile"), f.css("opacity", 0)), f.before(g), f.appendTo(g), f.off("change", b._onchange).change(b._onchange);
-              var c = null;
-              g.hover(function () {
-                c && clearTimeout(c), g.addClass(d.csclass + "-hover");
-              }, function () {
-                d.hoveropen && (c = setTimeout(h.close, 750)), g.removeClass(d.csclass + "-hover");
-              }), a(document).mouseup(function () {
-                g.is(d.selector + "-open") && (g.is(d.selector + "-hover") ? g.find("input").focus() : h.close());
-              });
-            },
-            value: function value() {
-              var b = a("<a href='#'><span/></a>").appendTo(g);
-              f.appendTo(g);
-              var c = "",
-                  e = null;
-              b.click(function (a) {
-                a.preventDefault();
-              }).focus(function () {
-                g.addClass(d.csclass + "-focus");
-              }).blur(function () {
-                g.removeClass(d.csclass + "-focus");
-              }), a("html").keyup(function (a) {
-                if (b.is(":focus")) {
-                  var g = a.which,
-                      h = f.find("option").not(":disabled");
+    for (; t.length;) {
+      if (t.pop() + "Transition" in e) return !0;
+    }
 
-                  if (g >= 48 && 90 >= g) {
-                    c += String.fromCharCode(g).toLowerCase();
+    return !1;
+  };
 
-                    for (var i = 0; i < h.length; i++) {
-                      var j = h.eq(i),
-                          k = (j.text() + "").toLowerCase();
+  w.prototype = {
+    constructor: w,
+    init: function init() {
+      var n = navigator.appVersion;
+      t.isIE7 = -1 !== n.indexOf("MSIE 7."), t.isIE8 = -1 !== n.indexOf("MSIE 8."), t.isLowIE = t.isIE7 || t.isIE8, t.isAndroid = /android/gi.test(n), t.isIOS = /iphone|ipad|ipod/gi.test(n), t.supportsTransition = S(), t.probablyMobile = t.isAndroid || t.isIOS || /(Opera Mini)|Kindle|webOS|BlackBerry|(Opera Mobi)|(Windows Phone)|IEMobile/i.test(navigator.userAgent), i = e(document.body), o = e(document), t.popupsCache = {};
+    },
+    open: function open(n) {
+      var i;
 
-                      if ((!j.is(":disabled") && d.searchblank || k.length > 0) && 0 == k.indexOf(c)) {
-                        f.val(j.attr("value")).change();
-                        break;
-                      }
-                    }
+      if (n.isObj === !1) {
+        t.items = n.items.toArray(), t.index = 0;
+        var r,
+            s = n.items;
 
-                    e && clearTimeout(e), e = setTimeout(function () {
-                      c = "";
-                    }, 1e3), a.preventDefault();
-                  } else if (27 == g) e && clearTimeout(e), c = "", a.preventDefault();else if (38 == g) {
-                    var l = f.find("option:selected"),
-                        m = h.index(l);
-                    m > 0 ? f.val(h.eq(m - 1).attr("value")) : f.val(h.eq(h.length - 1).attr("value")), f.change(), a.preventDefault();
-                  } else if (40 == g) {
-                    var l = f.find("option:selected"),
-                        m = h.index(l);
-                    m < h.length - 1 ? f.val(h.eq(m + 1).attr("value")) : f.val(h.eq(0).attr("value")), f.change(), a.preventDefault();
-                  }
-                }
-              });
-              var i = f.find("option:selected");
-              b.find("span").html(i.text().length > 0 ? i.text() : d.emptytext), b.removeAttr("class"), d.useoptionclass && i.attr("class") && b.addClass(i.attr("class") || ""), d.hoveropen ? b.mouseover(h.open) : b.click(h.toggle);
-            },
-            subcontainer: function subcontainer() {
-              var b = a("<div/>").appendTo(g),
-                  c = a("<input type='input'/>").appendTo(b);
-              c.keyup(function (b) {
-                a.inArray(b.which, [13, 38, 40]) < 0 && (d.search ? h.search(a(this).val()) : (h.searchmove(a(this).val()), a(this).val("")));
-              }).keydown(function (a) {
-                switch (a.which) {
-                  case 13:
-                    val = g.find("ul li.active.option-hover").data("value"), disabled = g.find("ul li.active.option-hover").is(".option-disabled"), h.select(val, disabled);
-                    break;
-
-                  case 38:
-                    h.selectUp();
-                    break;
-
-                  case 40:
-                    h.selectDown();
-                    break;
-
-                  case 27:
-                    h.close();
-                    break;
-
-                  default:
-                    return !0;
-                }
-
-                return a.preventDefault(), !1;
-              }).blur(function () {
-                a(this).val("");
-              }), d.search || c.addClass(d.csclass + "-hidden-input");
-              var e = a("<div/>").appendTo(b),
-                  i = a("<ul/>").appendTo(e);
-              f.find("option").each(function (b) {
-                var c = a(this).attr("value"),
-                    e = a(this).text(),
-                    f = a(this).is(":disabled");
-                !(d.showblank || c.length > 0) || !d.showdisabled && f || a("<li/>", {
-                  "class": "active" + (0 == b ? " option-hover" : "") + (a(this).is(":disabled") ? " option-disabled" : "") + (d.useoptionclass && a(this).attr("class") ? " " + a(this).attr("class") : ""),
-                  "data-value": c,
-                  text: e.length > 0 ? e : d.emptytext
-                }).appendTo(i);
-              });
-              var j = i.find("li");
-              i.find("li").click(function () {
-                h.select(a(this).data("value"), a(this).is(".option-disabled"));
-              }), g.find("div div").css({
-                "overflow-y": j.length > d.numitems ? "scroll" : "visible"
-              }), a("<li/>", {
-                "class": "no-results",
-                text: "No results"
-              }).appendTo(i);
-            },
-            _onchange: function _onchange() {
-              f.val(a(this).val()), h.select(a(this).val());
-            }
-          };
-          f.is("select" + d.selector) && !f.data("cs-options") && b.init();
-        },
-        toggle: function toggle() {
-          g.is(d.selector + "-open") ? h.close() : h.open();
-        },
-        open: function open() {
-          e || (g.addClass(d.csclass + "-open"), g.find("input").focus(), g.find("ul li.no-results").hide(), h._selectMove(f.get(0).selectedIndex));
-        },
-        close: function close() {
-          g.removeClass(d.csclass + "-open"), g.find("input").val("").blur(), g.find("ul li").not(".no-results").addClass("active");
-          var a = g.find("ul li").not(".no-results");
-          g.find("div div").css({
-            "overflow-y": a.length > d.numitems ? "scroll" : "visible"
-          }), g.find("a").focus();
-        },
-        search: function search(b) {
-          b = a.trim(b.toLowerCase());
-          var c = g.find("ul li.no-results").hide(),
-              e = g.find("ul li").not(".no-results");
-          e.each(function () {
-            var c = (a(this).text() + "").toLowerCase(),
-                e = (a(this).data("value") + "").toLowerCase(),
-                f = !1;
-            d.searchblank || e.length > 0 ? d.searchvalue && e.indexOf(b) >= 0 ? f = !0 : c.indexOf(b) >= 0 && (f = !0) : 0 == b.length && (f = !0), f ? a(this).addClass("active") : a(this).removeClass("active");
-          }), e = e.filter(".active").filter(":visible"), g.find("div div").css({
-            "overflow-y": e.length > d.numitems ? "scroll" : "visible"
-          }), e.length > 0 ? h._selectMove(0) : c.show();
-        },
-        searchmove: function searchmove(b) {
-          var c = [];
-          f.find("option").each(function (d) {
-            0 == a(this).text().toLowerCase().indexOf(b.toLowerCase()) && c.push(d);
-          }), c.length > 0 && h._selectMove(c[0]);
-        },
-        select: function select(a, b) {
-          if (!b) {
-            f.val() != a && f.val(a).change();
-            var c = f.find("option:selected"),
-                e = g.find("a");
-            e.find("span").text(c.text().length > 0 ? c.text() : d.emptytext), e.removeAttr("class"), d.useoptionclass && c.attr("class") && e.addClass(c.attr("class") || ""), h.close();
-          }
-        },
-        selectUp: function selectUp() {
-          var a = g.find("ul li.active").not(".no-results"),
-              b = a.index(a.filter(".option-hover")),
-              c = b - 1;
-          c = 0 > c ? a.length - 1 : c, h._selectMove(c);
-        },
-        selectDown: function selectDown() {
-          var a = g.find("ul li.active").not(".no-results"),
-              b = a.index(a.filter(".option-hover")),
-              c = b + 1;
-          c = c > a.length - 1 ? 0 : c, h._selectMove(c);
-        },
-        destroy: function destroy() {
-          f.data("cs-options") && (f.removeData("cs-options").insertAfter(g), g.remove());
-        },
-        _selectMove: function _selectMove(a) {
-          var b = g.find("ul li.active");
-          b.removeClass("option-hover").eq(a).addClass("option-hover");
-          var c = g.find("div div");
-
-          if ("scroll" == c.css("overflow-y")) {
-            c.scrollTop(0);
-            var d = b.eq(a);
-            offset = d.offset().top + d.outerHeight() - c.offset().top - c.height(), offset > 0 && c.scrollTop(offset);
+        for (i = 0; s.length > i; i++) {
+          if (r = s[i], r.parsed && (r = r.el[0]), r === n.el[0]) {
+            t.index = i;
+            break;
           }
         }
-      },
-          i = b;
-      i && "object" == _typeof(i) && (i = "init", c = null), d.selector = "." + d.csclass, i = i ? i : "init", "function" == typeof h[i] && h[i].call(this, c), "destroy" != i && f.data("cs-options", d);
-    }), this;
+      } else t.items = e.isArray(n.items) ? n.items : [n.items], t.index = n.index || 0;
+
+      if (t.isOpen) return t.updateItemHTML(), void 0;
+      t.types = [], a = "", t.ev = n.mainEl && n.mainEl.length ? n.mainEl.eq(0) : o, n.key ? (t.popupsCache[n.key] || (t.popupsCache[n.key] = {}), t.currTemplate = t.popupsCache[n.key]) : t.currTemplate = {}, t.st = e.extend(!0, {}, e.magnificPopup.defaults, n), t.fixedContentPos = "auto" === t.st.fixedContentPos ? !t.probablyMobile : t.st.fixedContentPos, t.st.modal && (t.st.closeOnContentClick = !1, t.st.closeOnBgClick = !1, t.st.showCloseBtn = !1, t.st.enableEscapeKey = !1), t.bgOverlay || (t.bgOverlay = k("bg").on("click" + v, function () {
+        t.close();
+      }), t.wrap = k("wrap").attr("tabindex", -1).on("click" + v, function (e) {
+        t._checkIfClose(e.target) && t.close();
+      }), t.container = k("container", t.wrap)), t.contentContainer = k("content"), t.st.preloader && (t.preloader = k("preloader", t.container, t.st.tLoading));
+      var l = e.magnificPopup.modules;
+
+      for (i = 0; l.length > i; i++) {
+        var c = l[i];
+        c = c.charAt(0).toUpperCase() + c.slice(1), t["init" + c].call(t);
+      }
+
+      T("BeforeOpen"), t.st.showCloseBtn && (t.st.closeBtnInside ? (x(p, function (e, t, n, i) {
+        n.close_replaceWith = E(i.type);
+      }), a += " mfp-close-btn-in") : t.wrap.append(E())), t.st.alignTop && (a += " mfp-align-top"), t.fixedContentPos ? t.wrap.css({
+        overflow: t.st.overflowY,
+        overflowX: "hidden",
+        overflowY: t.st.overflowY
+      }) : t.wrap.css({
+        top: I.scrollTop(),
+        position: "absolute"
+      }), (t.st.fixedBgPos === !1 || "auto" === t.st.fixedBgPos && !t.fixedContentPos) && t.bgOverlay.css({
+        height: o.height(),
+        position: "absolute"
+      }), t.st.enableEscapeKey && o.on("keyup" + v, function (e) {
+        27 === e.keyCode && t.close();
+      }), I.on("resize" + v, function () {
+        t.updateSize();
+      }), t.st.closeOnContentClick || (a += " mfp-auto-cursor"), a && t.wrap.addClass(a);
+      var d = t.wH = I.height(),
+          u = {};
+
+      if (t.fixedContentPos && t._hasScrollBar(d)) {
+        var m = t._getScrollbarSize();
+
+        m && (u.marginRight = m);
+      }
+
+      t.fixedContentPos && (t.isIE7 ? e("body, html").css("overflow", "hidden") : u.overflow = "hidden");
+      var g = t.st.mainClass;
+      return t.isIE7 && (g += " mfp-ie7"), g && t._addClassToMFP(g), t.updateItemHTML(), T("BuildControls"), e("html").css(u), t.bgOverlay.add(t.wrap).prependTo(document.body), t._lastFocusedEl = document.activeElement, setTimeout(function () {
+        t.content ? (t._addClassToMFP(h), t._setFocus()) : t.bgOverlay.addClass(h), o.on("focusin" + v, t._onFocusIn);
+      }, 16), t.isOpen = !0, t.updateSize(d), T(f), n;
+    },
+    close: function close() {
+      t.isOpen && (T(c), t.isOpen = !1, t.st.removalDelay && !t.isLowIE && t.supportsTransition ? (t._addClassToMFP(C), setTimeout(function () {
+        t._close();
+      }, t.st.removalDelay)) : t._close());
+    },
+    _close: function _close() {
+      T(l);
+      var n = C + " " + h + " ";
+
+      if (t.bgOverlay.detach(), t.wrap.detach(), t.container.empty(), t.st.mainClass && (n += t.st.mainClass + " "), t._removeClassFromMFP(n), t.fixedContentPos) {
+        var i = {
+          marginRight: ""
+        };
+        t.isIE7 ? e("body, html").css("overflow", "") : i.overflow = "", e("html").css(i);
+      }
+
+      o.off("keyup" + v + " focusin" + v), t.ev.off(v), t.wrap.attr("class", "mfp-wrap").removeAttr("style"), t.bgOverlay.attr("class", "mfp-bg"), t.container.attr("class", "mfp-container"), !t.st.showCloseBtn || t.st.closeBtnInside && t.currTemplate[t.currItem.type] !== !0 || t.currTemplate.closeBtn && t.currTemplate.closeBtn.detach(), t._lastFocusedEl && e(t._lastFocusedEl).focus(), t.currItem = null, t.content = null, t.currTemplate = null, t.prevHeight = 0, T(d);
+    },
+    updateSize: function updateSize(e) {
+      if (t.isIOS) {
+        var n = document.documentElement.clientWidth / window.innerWidth,
+            i = window.innerHeight * n;
+        t.wrap.css("height", i), t.wH = i;
+      } else t.wH = e || I.height();
+
+      t.fixedContentPos || t.wrap.css("height", t.wH), T("Resize");
+    },
+    updateItemHTML: function updateItemHTML() {
+      var n = t.items[t.index];
+      t.contentContainer.detach(), t.content && t.content.detach(), n.parsed || (n = t.parseEl(t.index));
+      var i = n.type;
+
+      if (T("BeforeChange", [t.currItem ? t.currItem.type : "", i]), t.currItem = n, !t.currTemplate[i]) {
+        var o = t.st[i] ? t.st[i].markup : !1;
+        T("FirstMarkupParse", o), t.currTemplate[i] = o ? e(o) : !0;
+      }
+
+      r && r !== n.type && t.container.removeClass("mfp-" + r + "-holder");
+      var a = t["get" + i.charAt(0).toUpperCase() + i.slice(1)](n, t.currTemplate[i]);
+      t.appendContent(a, i), n.preloaded = !0, T(m, n), r = n.type, t.container.prepend(t.contentContainer), T("AfterChange");
+    },
+    appendContent: function appendContent(e, n) {
+      t.content = e, e ? t.st.showCloseBtn && t.st.closeBtnInside && t.currTemplate[n] === !0 ? t.content.find(".mfp-close").length || t.content.append(E()) : t.content = e : t.content = "", T(u), t.container.addClass("mfp-" + n + "-holder"), t.contentContainer.append(t.content);
+    },
+    parseEl: function parseEl(n) {
+      var i = t.items[n],
+          o = i.type;
+
+      if (i = i.tagName ? {
+        el: e(i)
+      } : {
+        data: i,
+        src: i.src
+      }, i.el) {
+        for (var r = t.types, a = 0; r.length > a; a++) {
+          if (i.el.hasClass("mfp-" + r[a])) {
+            o = r[a];
+            break;
+          }
+        }
+
+        i.src = i.el.attr("data-mfp-src"), i.src || (i.src = i.el.attr("href"));
+      }
+
+      return i.type = o || t.st.type || "inline", i.index = n, i.parsed = !0, t.items[n] = i, T("ElementParse", i), t.items[n];
+    },
+    addGroup: function addGroup(e, n) {
+      var i = function i(_i) {
+        _i.mfpEl = this, t._openClick(_i, e, n);
+      };
+
+      n || (n = {});
+      var o = "click.magnificPopup";
+      n.mainEl = e, n.items ? (n.isObj = !0, e.off(o).on(o, i)) : (n.isObj = !1, n.delegate ? e.off(o).on(o, n.delegate, i) : (n.items = e, e.off(o).on(o, i)));
+    },
+    _openClick: function _openClick(n, i, o) {
+      var r = void 0 !== o.midClick ? o.midClick : e.magnificPopup.defaults.midClick;
+
+      if (r || 2 !== n.which && !n.ctrlKey && !n.metaKey) {
+        var a = void 0 !== o.disableOn ? o.disableOn : e.magnificPopup.defaults.disableOn;
+        if (a) if (e.isFunction(a)) {
+          if (!a.call(t)) return !0;
+        } else if (a > I.width()) return !0;
+        n.type && (n.preventDefault(), t.isOpen && n.stopPropagation()), o.el = e(n.mfpEl), o.delegate && (o.items = i.find(o.delegate)), t.open(o);
+      }
+    },
+    updateStatus: function updateStatus(e, i) {
+      if (t.preloader) {
+        n !== e && t.container.removeClass("mfp-s-" + n), i || "loading" !== e || (i = t.st.tLoading);
+        var o = {
+          status: e,
+          text: i
+        };
+        T("UpdateStatus", o), e = o.status, i = o.text, t.preloader.html(i), t.preloader.find("a").on("click", function (e) {
+          e.stopImmediatePropagation();
+        }), t.container.addClass("mfp-s-" + e), n = e;
+      }
+    },
+    _checkIfClose: function _checkIfClose(n) {
+      if (!e(n).hasClass(y)) {
+        var i = t.st.closeOnContentClick,
+            o = t.st.closeOnBgClick;
+        if (i && o) return !0;
+        if (!t.content || e(n).hasClass("mfp-close") || t.preloader && n === t.preloader[0]) return !0;
+
+        if (n === t.content[0] || e.contains(t.content[0], n)) {
+          if (i) return !0;
+        } else if (o && e.contains(document, n)) return !0;
+
+        return !1;
+      }
+    },
+    _addClassToMFP: function _addClassToMFP(e) {
+      t.bgOverlay.addClass(e), t.wrap.addClass(e);
+    },
+    _removeClassFromMFP: function _removeClassFromMFP(e) {
+      this.bgOverlay.removeClass(e), t.wrap.removeClass(e);
+    },
+    _hasScrollBar: function _hasScrollBar(e) {
+      return (t.isIE7 ? o.height() : document.body.scrollHeight) > (e || I.height());
+    },
+    _setFocus: function _setFocus() {
+      (t.st.focus ? t.content.find(t.st.focus).eq(0) : t.wrap).focus();
+    },
+    _onFocusIn: function _onFocusIn(n) {
+      return n.target === t.wrap[0] || e.contains(t.wrap[0], n.target) ? void 0 : (t._setFocus(), !1);
+    },
+    _parseMarkup: function _parseMarkup(t, n, i) {
+      var o;
+      i.data && (n = e.extend(i.data, n)), T(p, [t, n, i]), e.each(n, function (e, n) {
+        if (void 0 === n || n === !1) return !0;
+
+        if (o = e.split("_"), o.length > 1) {
+          var i = t.find(v + "-" + o[0]);
+
+          if (i.length > 0) {
+            var r = o[1];
+            "replaceWith" === r ? i[0] !== n[0] && i.replaceWith(n) : "img" === r ? i.is("img") ? i.attr("src", n) : i.replaceWith('<img src="' + n + '" class="' + i.attr("class") + '" />') : i.attr(o[1], n);
+          }
+        } else t.find(v + "-" + e).html(n);
+      });
+    },
+    _getScrollbarSize: function _getScrollbarSize() {
+      if (void 0 === t.scrollbarSize) {
+        var e = document.createElement("div");
+        e.id = "mfp-sbm", e.style.cssText = "width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;", document.body.appendChild(e), t.scrollbarSize = e.offsetWidth - e.clientWidth, document.body.removeChild(e);
+      }
+
+      return t.scrollbarSize;
+    }
+  }, e.magnificPopup = {
+    instance: null,
+    proto: w.prototype,
+    modules: [],
+    open: function open(t, n) {
+      return _(), t = t ? e.extend(!0, {}, t) : {}, t.isObj = !0, t.index = n || 0, this.instance.open(t);
+    },
+    close: function close() {
+      return e.magnificPopup.instance && e.magnificPopup.instance.close();
+    },
+    registerModule: function registerModule(t, n) {
+      n.options && (e.magnificPopup.defaults[t] = n.options), e.extend(this.proto, n.proto), this.modules.push(t);
+    },
+    defaults: {
+      disableOn: 0,
+      key: null,
+      midClick: !1,
+      mainClass: "",
+      preloader: !0,
+      focus: "",
+      closeOnContentClick: !1,
+      closeOnBgClick: !0,
+      closeBtnInside: !0,
+      showCloseBtn: !0,
+      enableEscapeKey: !0,
+      modal: !1,
+      alignTop: !1,
+      removalDelay: 0,
+      fixedContentPos: "auto",
+      fixedBgPos: "auto",
+      overflowY: "auto",
+      closeMarkup: '<button title="%title%" type="button" class="mfp-close">&times;</button>',
+      tClose: "Close (Esc)",
+      tLoading: "Loading..."
+    }
+  }, e.fn.magnificPopup = function (n) {
+    _();
+
+    var i = e(this);
+    if ("string" == typeof n) {
+      if ("open" === n) {
+        var o,
+            r = b ? i.data("magnificPopup") : i[0].magnificPopup,
+            a = parseInt(arguments[1], 10) || 0;
+        r.items ? o = r.items[a] : (o = i, r.delegate && (o = o.find(r.delegate)), o = o.eq(a)), t._openClick({
+          mfpEl: o
+        }, i, r);
+      } else t.isOpen && t[n].apply(t, Array.prototype.slice.call(arguments, 1));
+    } else n = e.extend(!0, {}, n), b ? i.data("magnificPopup", n) : i[0].magnificPopup = n, t.addGroup(i, n);
+    return i;
   };
-}(jQuery);
+
+  var P,
+      O,
+      z,
+      M = "inline",
+      B = function B() {
+    z && (O.after(z.addClass(P)).detach(), z = null);
+  };
+
+  e.magnificPopup.registerModule(M, {
+    options: {
+      hiddenClass: "hide",
+      markup: "",
+      tNotFound: "Content not found"
+    },
+    proto: {
+      initInline: function initInline() {
+        t.types.push(M), x(l + "." + M, function () {
+          B();
+        });
+      },
+      getInline: function getInline(n, i) {
+        if (B(), n.src) {
+          var o = t.st.inline,
+              r = e(n.src);
+
+          if (r.length) {
+            var a = r[0].parentNode;
+            a && a.tagName && (O || (P = o.hiddenClass, O = k(P), P = "mfp-" + P), z = r.after(O).detach().removeClass(P)), t.updateStatus("ready");
+          } else t.updateStatus("error", o.tNotFound), r = e("<div>");
+
+          return n.inlineElement = r, r;
+        }
+
+        return t.updateStatus("ready"), t._parseMarkup(i, {}, n), i;
+      }
+    }
+  });
+
+  var F,
+      H = "ajax",
+      L = function L() {
+    F && i.removeClass(F);
+  },
+      A = function A() {
+    L(), t.req && t.req.abort();
+  };
+
+  e.magnificPopup.registerModule(H, {
+    options: {
+      settings: null,
+      cursor: "mfp-ajax-cur",
+      tError: '<a href="%url%">The content</a> could not be loaded.'
+    },
+    proto: {
+      initAjax: function initAjax() {
+        t.types.push(H), F = t.st.ajax.cursor, x(l + "." + H, A), x("BeforeChange." + H, A);
+      },
+      getAjax: function getAjax(n) {
+        F && i.addClass(F), t.updateStatus("loading");
+        var o = e.extend({
+          url: n.src,
+          success: function success(i, o, r) {
+            var a = {
+              data: i,
+              xhr: r
+            };
+            T("ParseAjax", a), t.appendContent(e(a.data), H), n.finished = !0, L(), t._setFocus(), setTimeout(function () {
+              t.wrap.addClass(h);
+            }, 16), t.updateStatus("ready"), T("AjaxContentAdded");
+          },
+          error: function error() {
+            L(), n.finished = n.loadError = !0, t.updateStatus("error", t.st.ajax.tError.replace("%url%", n.src));
+          }
+        }, t.st.ajax.settings);
+        return t.req = e.ajax(o), "";
+      }
+    }
+  });
+
+  var j,
+      N = function N(n) {
+    if (n.data && void 0 !== n.data.title) return n.data.title;
+    var i = t.st.image.titleSrc;
+
+    if (i) {
+      if (e.isFunction(i)) return i.call(t, n);
+      if (n.el) return n.el.attr(i) || "";
+    }
+
+    return "";
+  };
+
+  e.magnificPopup.registerModule("image", {
+    options: {
+      markup: '<div class="mfp-figure"><div class="mfp-close"></div><figure><div class="mfp-img"></div><figcaption><div class="mfp-bottom-bar"><div class="mfp-title"></div><div class="mfp-counter"></div></div></figcaption></figure></div>',
+      cursor: "mfp-zoom-out-cur",
+      titleSrc: "title",
+      verticalFit: !0,
+      tError: '<a href="%url%">The image</a> could not be loaded.'
+    },
+    proto: {
+      initImage: function initImage() {
+        var e = t.st.image,
+            n = ".image";
+        t.types.push("image"), x(f + n, function () {
+          "image" === t.currItem.type && e.cursor && i.addClass(e.cursor);
+        }), x(l + n, function () {
+          e.cursor && i.removeClass(e.cursor), I.off("resize" + v);
+        }), x("Resize" + n, t.resizeImage), t.isLowIE && x("AfterChange", t.resizeImage);
+      },
+      resizeImage: function resizeImage() {
+        var e = t.currItem;
+
+        if (e && e.img && t.st.image.verticalFit) {
+          var n = 0;
+          t.isLowIE && (n = parseInt(e.img.css("padding-top"), 10) + parseInt(e.img.css("padding-bottom"), 10)), e.img.css("max-height", t.wH - n);
+        }
+      },
+      _onImageHasSize: function _onImageHasSize(e) {
+        e.img && (e.hasSize = !0, j && clearInterval(j), e.isCheckingImgSize = !1, T("ImageHasSize", e), e.imgHidden && (t.content && t.content.removeClass("mfp-loading"), e.imgHidden = !1));
+      },
+      findImageSize: function findImageSize(e) {
+        var n = 0,
+            i = e.img[0],
+            o = function o(r) {
+          j && clearInterval(j), j = setInterval(function () {
+            return i.naturalWidth > 0 ? (t._onImageHasSize(e), void 0) : (n > 200 && clearInterval(j), n++, 3 === n ? o(10) : 40 === n ? o(50) : 100 === n && o(500), void 0);
+          }, r);
+        };
+
+        o(1);
+      },
+      getImage: function getImage(n, i) {
+        var o = 0,
+            r = function r() {
+          n && (n.img[0].complete ? (n.img.off(".mfploader"), n === t.currItem && (t._onImageHasSize(n), t.updateStatus("ready")), n.hasSize = !0, n.loaded = !0, T("ImageLoadComplete")) : (o++, 200 > o ? setTimeout(r, 100) : a()));
+        },
+            a = function a() {
+          n && (n.img.off(".mfploader"), n === t.currItem && (t._onImageHasSize(n), t.updateStatus("error", s.tError.replace("%url%", n.src))), n.hasSize = !0, n.loaded = !0, n.loadError = !0);
+        },
+            s = t.st.image,
+            l = i.find(".mfp-img");
+
+        if (l.length) {
+          var c = document.createElement("img");
+          c.className = "mfp-img", n.img = e(c).on("load.mfploader", r).on("error.mfploader", a), c.src = n.src, l.is("img") && (n.img = n.img.clone()), n.img[0].naturalWidth > 0 && (n.hasSize = !0);
+        }
+
+        return t._parseMarkup(i, {
+          title: N(n),
+          img_replaceWith: n.img
+        }, n), t.resizeImage(), n.hasSize ? (j && clearInterval(j), n.loadError ? (i.addClass("mfp-loading"), t.updateStatus("error", s.tError.replace("%url%", n.src))) : (i.removeClass("mfp-loading"), t.updateStatus("ready")), i) : (t.updateStatus("loading"), n.loading = !0, n.hasSize || (n.imgHidden = !0, i.addClass("mfp-loading"), t.findImageSize(n)), i);
+      }
+    }
+  });
+
+  var W,
+      R = function R() {
+    return void 0 === W && (W = void 0 !== document.createElement("p").style.MozTransform), W;
+  };
+
+  e.magnificPopup.registerModule("zoom", {
+    options: {
+      enabled: !1,
+      easing: "ease-in-out",
+      duration: 300,
+      opener: function opener(e) {
+        return e.is("img") ? e : e.find("img");
+      }
+    },
+    proto: {
+      initZoom: function initZoom() {
+        var e,
+            n = t.st.zoom,
+            i = ".zoom";
+
+        if (n.enabled && t.supportsTransition) {
+          var o,
+              r,
+              a = n.duration,
+              s = function s(e) {
+            var t = e.clone().removeAttr("style").removeAttr("class").addClass("mfp-animated-image"),
+                i = "all " + n.duration / 1e3 + "s " + n.easing,
+                o = {
+              position: "fixed",
+              zIndex: 9999,
+              left: 0,
+              top: 0,
+              "-webkit-backface-visibility": "hidden"
+            },
+                r = "transition";
+            return o["-webkit-" + r] = o["-moz-" + r] = o["-o-" + r] = o[r] = i, t.css(o), t;
+          },
+              d = function d() {
+            t.content.css("visibility", "visible");
+          };
+
+          x("BuildControls" + i, function () {
+            if (t._allowZoom()) {
+              if (clearTimeout(o), t.content.css("visibility", "hidden"), e = t._getItemToZoom(), !e) return d(), void 0;
+              r = s(e), r.css(t._getOffset()), t.wrap.append(r), o = setTimeout(function () {
+                r.css(t._getOffset(!0)), o = setTimeout(function () {
+                  d(), setTimeout(function () {
+                    r.remove(), e = r = null, T("ZoomAnimationEnded");
+                  }, 16);
+                }, a);
+              }, 16);
+            }
+          }), x(c + i, function () {
+            if (t._allowZoom()) {
+              if (clearTimeout(o), t.st.removalDelay = a, !e) {
+                if (e = t._getItemToZoom(), !e) return;
+                r = s(e);
+              }
+
+              r.css(t._getOffset(!0)), t.wrap.append(r), t.content.css("visibility", "hidden"), setTimeout(function () {
+                r.css(t._getOffset());
+              }, 16);
+            }
+          }), x(l + i, function () {
+            t._allowZoom() && (d(), r && r.remove(), e = null);
+          });
+        }
+      },
+      _allowZoom: function _allowZoom() {
+        return "image" === t.currItem.type;
+      },
+      _getItemToZoom: function _getItemToZoom() {
+        return t.currItem.hasSize ? t.currItem.img : !1;
+      },
+      _getOffset: function _getOffset(n) {
+        var i;
+        i = n ? t.currItem.img : t.st.zoom.opener(t.currItem.el || t.currItem);
+        var o = i.offset(),
+            r = parseInt(i.css("padding-top"), 10),
+            a = parseInt(i.css("padding-bottom"), 10);
+        o.top -= e(window).scrollTop() - r;
+        var s = {
+          width: i.width(),
+          height: (b ? i.innerHeight() : i[0].offsetHeight) - a - r
+        };
+        return R() ? s["-moz-transform"] = s.transform = "translate(" + o.left + "px," + o.top + "px)" : (s.left = o.left, s.top = o.top), s;
+      }
+    }
+  });
+
+  var Z = "iframe",
+      q = "//about:blank",
+      D = function D(e) {
+    if (t.currTemplate[Z]) {
+      var n = t.currTemplate[Z].find("iframe");
+      n.length && (e || (n[0].src = q), t.isIE8 && n.css("display", e ? "block" : "none"));
+    }
+  };
+
+  e.magnificPopup.registerModule(Z, {
+    options: {
+      markup: '<div class="mfp-iframe-scaler"><div class="mfp-close"></div><iframe class="mfp-iframe" src="//about:blank" frameborder="0" allowfullscreen></iframe></div>',
+      srcAction: "iframe_src",
+      patterns: {
+        youtube: {
+          index: "youtube.com",
+          id: "v=",
+          src: "//www.youtube.com/embed/%id%?autoplay=1"
+        },
+        vimeo: {
+          index: "vimeo.com/",
+          id: "/",
+          src: "//player.vimeo.com/video/%id%?autoplay=1"
+        },
+        gmaps: {
+          index: "//maps.google.",
+          src: "%id%&output=embed"
+        }
+      }
+    },
+    proto: {
+      initIframe: function initIframe() {
+        t.types.push(Z), x("BeforeChange", function (e, t, n) {
+          t !== n && (t === Z ? D() : n === Z && D(!0));
+        }), x(l + "." + Z, function () {
+          D();
+        });
+      },
+      getIframe: function getIframe(n, i) {
+        var o = n.src,
+            r = t.st.iframe;
+        e.each(r.patterns, function () {
+          return o.indexOf(this.index) > -1 ? (this.id && (o = "string" == typeof this.id ? o.substr(o.lastIndexOf(this.id) + this.id.length, o.length) : this.id.call(this, o)), o = this.src.replace("%id%", o), !1) : void 0;
+        });
+        var a = {};
+        return r.srcAction && (a[r.srcAction] = o), t._parseMarkup(i, a, n), t.updateStatus("ready"), i;
+      }
+    }
+  });
+
+  var K = function K(e) {
+    var n = t.items.length;
+    return e > n - 1 ? e - n : 0 > e ? n + e : e;
+  },
+      Y = function Y(e, t, n) {
+    return e.replace(/%curr%/gi, t + 1).replace(/%total%/gi, n);
+  };
+
+  e.magnificPopup.registerModule("gallery", {
+    options: {
+      enabled: !1,
+      arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
+      preload: [0, 2],
+      navigateByImgClick: !0,
+      arrows: !0,
+      tPrev: "Previous (Left arrow key)",
+      tNext: "Next (Right arrow key)",
+      tCounter: "%curr% of %total%"
+    },
+    proto: {
+      initGallery: function initGallery() {
+        var n = t.st.gallery,
+            i = ".mfp-gallery",
+            r = Boolean(e.fn.mfpFastClick);
+        return t.direction = !0, n && n.enabled ? (a += " mfp-gallery", x(f + i, function () {
+          n.navigateByImgClick && t.wrap.on("click" + i, ".mfp-img", function () {
+            return t.items.length > 1 ? (t.next(), !1) : void 0;
+          }), o.on("keydown" + i, function (e) {
+            37 === e.keyCode ? t.prev() : 39 === e.keyCode && t.next();
+          });
+        }), x("UpdateStatus" + i, function (e, n) {
+          n.text && (n.text = Y(n.text, t.currItem.index, t.items.length));
+        }), x(p + i, function (e, i, o, r) {
+          var a = t.items.length;
+          o.counter = a > 1 ? Y(n.tCounter, r.index, a) : "";
+        }), x("BuildControls" + i, function () {
+          if (t.items.length > 1 && n.arrows && !t.arrowLeft) {
+            var i = n.arrowMarkup,
+                o = t.arrowLeft = e(i.replace(/%title%/gi, n.tPrev).replace(/%dir%/gi, "left")).addClass(y),
+                a = t.arrowRight = e(i.replace(/%title%/gi, n.tNext).replace(/%dir%/gi, "right")).addClass(y),
+                s = r ? "mfpFastClick" : "click";
+            o[s](function () {
+              t.prev();
+            }), a[s](function () {
+              t.next();
+            }), t.isIE7 && (k("b", o[0], !1, !0), k("a", o[0], !1, !0), k("b", a[0], !1, !0), k("a", a[0], !1, !0)), t.container.append(o.add(a));
+          }
+        }), x(m + i, function () {
+          t._preloadTimeout && clearTimeout(t._preloadTimeout), t._preloadTimeout = setTimeout(function () {
+            t.preloadNearbyImages(), t._preloadTimeout = null;
+          }, 16);
+        }), x(l + i, function () {
+          o.off(i), t.wrap.off("click" + i), t.arrowLeft && r && t.arrowLeft.add(t.arrowRight).destroyMfpFastClick(), t.arrowRight = t.arrowLeft = null;
+        }), void 0) : !1;
+      },
+      next: function next() {
+        t.direction = !0, t.index = K(t.index + 1), t.updateItemHTML();
+      },
+      prev: function prev() {
+        t.direction = !1, t.index = K(t.index - 1), t.updateItemHTML();
+      },
+      goTo: function goTo(e) {
+        t.direction = e >= t.index, t.index = e, t.updateItemHTML();
+      },
+      preloadNearbyImages: function preloadNearbyImages() {
+        var e,
+            n = t.st.gallery.preload,
+            i = Math.min(n[0], t.items.length),
+            o = Math.min(n[1], t.items.length);
+
+        for (e = 1; (t.direction ? o : i) >= e; e++) {
+          t._preloadItem(t.index + e);
+        }
+
+        for (e = 1; (t.direction ? i : o) >= e; e++) {
+          t._preloadItem(t.index - e);
+        }
+      },
+      _preloadItem: function _preloadItem(n) {
+        if (n = K(n), !t.items[n].preloaded) {
+          var i = t.items[n];
+          i.parsed || (i = t.parseEl(n)), T("LazyLoad", i), "image" === i.type && (i.img = e('<img class="mfp-img" />').on("load.mfploader", function () {
+            i.hasSize = !0;
+          }).on("error.mfploader", function () {
+            i.hasSize = !0, i.loadError = !0, T("LazyLoadError", i);
+          }).attr("src", i.src)), i.preloaded = !0;
+        }
+      }
+    }
+  });
+  var U = "retina";
+  e.magnificPopup.registerModule(U, {
+    options: {
+      replaceSrc: function replaceSrc(e) {
+        return e.src.replace(/\.\w+$/, function (e) {
+          return "@2x" + e;
+        });
+      },
+      ratio: 1
+    },
+    proto: {
+      initRetina: function initRetina() {
+        if (window.devicePixelRatio > 1) {
+          var e = t.st.retina,
+              n = e.ratio;
+          n = isNaN(n) ? n() : n, n > 1 && (x("ImageHasSize." + U, function (e, t) {
+            t.img.css({
+              "max-width": t.img[0].naturalWidth / n,
+              width: "100%"
+            });
+          }), x("ElementParse." + U, function (t, i) {
+            i.src = e.replaceSrc(i, n);
+          }));
+        }
+      }
+    }
+  }), function () {
+    var t = 1e3,
+        n = "ontouchstart" in window,
+        i = function i() {
+      I.off("touchmove" + r + " touchend" + r);
+    },
+        o = "mfpFastClick",
+        r = "." + o;
+
+    e.fn.mfpFastClick = function (o) {
+      return e(this).each(function () {
+        var a,
+            s = e(this);
+
+        if (n) {
+          var l, c, d, u, p, f;
+          s.on("touchstart" + r, function (e) {
+            u = !1, f = 1, p = e.originalEvent ? e.originalEvent.touches[0] : e.touches[0], c = p.clientX, d = p.clientY, I.on("touchmove" + r, function (e) {
+              p = e.originalEvent ? e.originalEvent.touches : e.touches, f = p.length, p = p[0], (Math.abs(p.clientX - c) > 10 || Math.abs(p.clientY - d) > 10) && (u = !0, i());
+            }).on("touchend" + r, function (e) {
+              i(), u || f > 1 || (a = !0, e.preventDefault(), clearTimeout(l), l = setTimeout(function () {
+                a = !1;
+              }, t), o());
+            });
+          });
+        }
+
+        s.on("click" + r, function () {
+          a || o();
+        });
+      });
+    }, e.fn.destroyMfpFastClick = function () {
+      e(this).off("touchstart" + r + " click" + r), n && I.off("touchmove" + r + " touchend" + r);
+    };
+  }(), _();
+})(__webpack_provided_window_dot_jQuery || window.Zepto);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 
 /***/ }),
@@ -8131,6 +8795,66 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
     }
   }), t.ui.tooltip;
 });
+
+/***/ }),
+
+/***/ "./src/libs/touch/touch.js":
+/*!*********************************!*\
+  !*** ./src/libs/touch/touch.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(jQuery) {/*!
+ * jQuery UI Touch Punch 0.2.3
+ *
+ * Copyright 2011–2014, Dave Furfero
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ *
+ * Depends:
+ *  jquery.ui.widget.js
+ *  jquery.ui.mouse.js
+ */
+!function (a) {
+  function f(a, b) {
+    if (!(a.originalEvent.touches.length > 1)) {
+      a.preventDefault();
+      var c = a.originalEvent.changedTouches[0],
+          d = document.createEvent("MouseEvents");
+      d.initMouseEvent(b, !0, !0, window, 1, c.screenX, c.screenY, c.clientX, c.clientY, !1, !1, !1, !1, 0, null), a.target.dispatchEvent(d);
+    }
+  }
+
+  if (a.support.touch = "ontouchend" in document, a.support.touch) {
+    var e,
+        b = a.ui.mouse.prototype,
+        c = b._mouseInit,
+        d = b._mouseDestroy;
+    b._touchStart = function (a) {
+      var b = this;
+      !e && b._mouseCapture(a.originalEvent.changedTouches[0]) && (e = !0, b._touchMoved = !1, f(a, "mouseover"), f(a, "mousemove"), f(a, "mousedown"));
+    }, b._touchMove = function (a) {
+      e && (this._touchMoved = !0, f(a, "mousemove"));
+    }, b._touchEnd = function (a) {
+      e && (f(a, "mouseup"), f(a, "mouseout"), this._touchMoved || f(a, "click"), e = !1);
+    }, b._mouseInit = function () {
+      var b = this;
+      b.element.bind({
+        touchstart: a.proxy(b, "_touchStart"),
+        touchmove: a.proxy(b, "_touchMove"),
+        touchend: a.proxy(b, "_touchEnd")
+      }), c.call(b);
+    }, b._mouseDestroy = function () {
+      var b = this;
+      b.element.unbind({
+        touchstart: a.proxy(b, "_touchStart"),
+        touchmove: a.proxy(b, "_touchMove"),
+        touchend: a.proxy(b, "_touchEnd")
+      }), d.call(b);
+    };
+  }
+}(jQuery);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")))
 
 /***/ })
 
