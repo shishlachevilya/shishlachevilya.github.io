@@ -147,7 +147,7 @@
 
             <svg class="nav-dropdown__icon" xmlns="http://www.w3.org/2000/svg" width="9.271" height="5.552" viewBox="0 0 9.271 5.552">
               <path d="M4.386,102.141a.612.612,0,0,1-.434-.18L.181,98.189a.614.614,0,0,1,.869-.869l3.337,3.337L7.724,97.32a.614.614,0,0,1,.869.869l-3.771,3.772A.612.612,0,0,1,4.386,102.141Z"
-                    transform="translate(0.249 -96.838)" stroke-width="0.5"/>
+                    transform="translate(0.249 -96.838)" stroke="#08396f" fill="#08396f" stroke-width="0.5"/>
             </svg>
           </a>
           <div class="summary-list-wrap">
@@ -229,7 +229,7 @@
                   <ul class="filter-list">
                     <li class="filter-list__item">
                       <div class="check-box">
-                        <input id="type-all" class="check-box__field" type="radio" name="type" value="all" checked/>
+                        <input id="type-all" class="check-box__field visually-hidden" type="radio" name="type" value="all" checked/>
                         <label class="check-box__label" for="type-all">
                           <span></span>
                           All
@@ -239,7 +239,7 @@
 
                     <li class="filter-list__item">
                       <div class="check-box">
-                        <input id="type-1" class="check-box__field" type="radio" name="type" value="yacht"/>
+                        <input id="type-1" class="check-box__field visually-hidden" type="radio" name="type" value="yacht"/>
                         <label class="check-box__label" for="type-1">
                           <span></span>
                           Sailing Yacht
@@ -249,7 +249,7 @@
 
                     <li class="filter-list__item">
                       <div class="check-box">
-                        <input id="type-2" class="check-box__field" type="radio" name="type" value="catamaran"/>
+                        <input id="type-2" class="check-box__field visually-hidden" type="radio" name="type" value="catamaran"/>
                         <label class="check-box__label" for="type-2">
                           <span></span>
                           Catamaran
@@ -259,7 +259,7 @@
 
                     <li class="filter-list__item">
                       <div class="check-box">
-                        <input id="type-3" class="check-box__field" type="radio" name="type" value="motorboat"/>
+                        <input id="type-3" class="check-box__field visually-hidden" type="radio" name="type" value="motorboat"/>
                         <label class="check-box__label" for="type-3">
                           <span></span>
                           Motorboat
@@ -269,7 +269,7 @@
 
                     <li class="filter-list__item">
                       <div class="check-box">
-                        <input id="type-4" class="check-box__field" type="radio" name="type" value="power catamaran"/>
+                        <input id="type-4" class="check-box__field visually-hidden" type="radio" name="type" value="power catamaran"/>
                         <label class="check-box__label" for="type-4">
                           <span></span>
                           Power Catamaran
@@ -279,7 +279,7 @@
 
                     <li class="filter-list__item">
                       <div class="check-box">
-                        <input id="type-5" class="check-box__field" type="radio" name="type"/>
+                        <input id="type-5" class="check-box__field visually-hidden" type="radio" name="type"/>
                         <label class="check-box__label" for="type-5">
                           <span></span>
                           Motor Yacht
@@ -289,7 +289,7 @@
 
                     <li class="filter-list__item">
                       <div class="check-box">
-                        <input id="type-6" class="check-box__field" type="radio" name="type"/>
+                        <input id="type-6" class="check-box__field visually-hidden" type="radio" name="type"/>
                         <label class="check-box__label" for="type-6">
                           <span></span>
                           Gulet
@@ -318,7 +318,7 @@
                   <div class="form-select">
                     <label class="form-select__label">
                       <input id="search-field" class="form-select__field" type="text" autocomplete="off"
-                             value="Destination">
+                             placeholder="Destination">
                     </label>
 
                     <ul id="search-list" class="form-select__list form-select__list_search"></ul>
@@ -341,7 +341,7 @@
                 <div id="datepicker" class="catalog-mb">
                   <div class="datepicker">
                     <div class="datepicker__row">
-                      <input class="datepicker__field" type="text" id="from" name="from" placeholder="11 Feb, 2020">
+                      <input class="datepicker__field" type="text" id="from" name="from" placeholder="11 Feb, 2020" autocomplete="off">
 
                       <div class="slider__icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30.319" height="12" viewBox="0 0 30.319 12">
@@ -351,7 +351,7 @@
                         </svg>
                       </div>
 
-                      <input class="datepicker__field" type="text" id="to" name="to" placeholder="11 Feb, 2021">
+                      <input class="datepicker__field" type="text" id="to" name="to" placeholder="11 Feb, 2021" autocomplete="off">
                     </div>
                   </div>
                 </div>
@@ -490,7 +490,7 @@
                     <ul class="filter-list">
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="skipper-yes" class="check-box__field" type="radio" name="skipper" checked/>
+                          <input id="skipper-yes" class="check-box__field visually-hidden" type="radio" name="skipper" checked/>
                           <label class="check-box__label" for="skipper-yes">
                             <span></span>
                             Yes
@@ -500,7 +500,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="skipper-no" class="check-box__field" type="radio" name="skipper"/>
+                          <input id="skipper-no" class="check-box__field visually-hidden" type="radio" name="skipper"/>
                           <label class="check-box__label" for="skipper-no">
                             <span></span>
                             No
@@ -588,7 +588,7 @@
                     <ul class="filter-list">
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-1" class="check-box__field" type="checkbox" name="skipper-1" checked/>
+                          <input id="checkbox-1" class="check-box__field visually-hidden" type="checkbox" name="skipper-1" checked/>
                           <label class="check-box__label" for="checkbox-1">
                             <span></span>
                             Air Conditioned
@@ -598,7 +598,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-2" class="check-box__field" type="checkbox" name="skipper-2"/>
+                          <input id="checkbox-2" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                           <label class="check-box__label" for="checkbox-2">
                             <span></span>
                             Watermaker
@@ -608,7 +608,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-3" class="check-box__field" type="checkbox" name="skipper-2"/>
+                          <input id="checkbox-3" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                           <label class="check-box__label" for="checkbox-3">
                             <span></span>
                             Generator
@@ -618,7 +618,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-4" class="check-box__field" type="checkbox" name="skipper-2"/>
+                          <input id="checkbox-4" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                           <label class="check-box__label" for="checkbox-4">
                             <span></span>
                             Electric Windlass
@@ -628,7 +628,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-5" class="check-box__field" type="checkbox" name="skipper-2"/>
+                          <input id="checkbox-5" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                           <label class="check-box__label" for="checkbox-5">
                             <span></span>
                             Outboard Motor
@@ -638,7 +638,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-6" class="check-box__field" type="checkbox" name="skipper-2"/>
+                          <input id="checkbox-6" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                           <label class="check-box__label" for="checkbox-6">
                             <span></span>
                             Autopilot
@@ -648,7 +648,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-7" class="check-box__field" type="checkbox" name="skipper-2"/>
+                          <input id="checkbox-7" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                           <label class="check-box__label" for="checkbox-7">
                             <span></span>
                             Electric Toilettese
@@ -658,7 +658,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-8" class="check-box__field" type="checkbox" name="skipper-2"/>
+                          <input id="checkbox-8" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                           <label class="check-box__label" for="checkbox-8">
                             <span></span>
                             Furling Mainsail
@@ -668,7 +668,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-9" class="check-box__field" type="checkbox" name="skipper-2"/>
+                          <input id="checkbox-9" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                           <label class="check-box__label" for="checkbox-9">
                             <span></span>
                             Solar Panel
@@ -678,7 +678,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-10" class="check-box__field" type="checkbox" name="skipper-2"/>
+                          <input id="checkbox-10" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                           <label class="check-box__label" for="checkbox-10">
                             <span></span>
                             Barbecue Grill
@@ -688,7 +688,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-11" class="check-box__field" type="checkbox" name="skipper-2" checked/>
+                          <input id="checkbox-11" class="check-box__field visually-hidden" type="checkbox" name="skipper-2" checked/>
                           <label class="check-box__label" for="checkbox-11">
                             <span></span>
                             GPS
@@ -698,7 +698,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-12" class="check-box__field" type="checkbox" name="skipper-2"/>
+                          <input id="checkbox-12" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                           <label class="check-box__label" for="checkbox-12">
                             <span></span>
                             Electric Winch
@@ -708,7 +708,7 @@
 
                       <li class="filter-list__item">
                         <div class="check-box">
-                          <input id="checkbox-13" class="check-box__field" type="checkbox" name="skipper-2" checked/>
+                          <input id="checkbox-13" class="check-box__field visually-hidden" type="checkbox" name="skipper-2" checked/>
                           <label class="check-box__label" for="checkbox-13">
                             <span></span>
                             Wifi
@@ -835,7 +835,7 @@
                         </svg>
                       </div>
 
-                      <span class="badge__count">Up to 25</span>
+                      <span class="badge__text">Up to 25</span>
                     </div>
                   </div>
 
@@ -999,7 +999,7 @@
                         </svg>
                       </div>
 
-                      <span class="badge__count">Up to 25</span>
+                      <span class="badge__text">Up to 25</span>
                     </div>
                   </div>
 
@@ -1160,7 +1160,7 @@
                         </svg>
                       </div>
 
-                      <span class="badge__count">Up to 25</span>
+                      <span class="badge__text">Up to 25</span>
                     </div>
                   </div>
 
@@ -1323,7 +1323,7 @@
                         </svg>
                       </div>
 
-                      <span class="badge__count">Up to 25</span>
+                      <span class="badge__text">Up to 25</span>
                     </div>
                   </div>
 
@@ -1466,7 +1466,7 @@
 
               <div class="card">
                 <div class="card-sale">
-                  <span class="card-sale__text">20%</span>
+                  <span class="card-sale__text">25%</span>
                 </div>
 
                 <div class="card-preview">
@@ -1480,7 +1480,7 @@
                         </svg>
                       </div>
 
-                      <span class="badge__count">Up to 25</span>
+                      <span class="badge__text">Up to 25</span>
                     </div>
                   </div>
 
@@ -1634,8 +1634,8 @@
             <div class="pagination">
               <ul class="pagination-list">
                 <li class="pagination-list__item">
-                  <div class="pagination__wrap-btn">
-                    <button type="button" class="pagination__btn pagination__btn_prev" aria-label="prev-page">
+                  <div class="circle">
+                    <button type="button" class="circle__btn circle__btn_prev" aria-label="prev-page">
                       <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.193609 8.48897C0.193296 8.63426 0.221767 8.77817 0.277378 8.91239C0.332988 9.04661 0.414637 9.16848 0.517609 9.27097L7.30661 16.059C7.51593 16.2567 7.7941 16.365 8.08201 16.3608C8.36991 16.3567 8.64485 16.2404 8.84839 16.0368C9.05193 15.8331 9.16802 15.5581 9.17198 15.2702C9.17594 14.9823 9.06746 14.7042 8.86961 14.495L2.86261 8.48897L8.86961 2.48298C9.06733 2.27366 9.17563 1.99548 9.17148 1.70758C9.16734 1.41967 9.05107 1.14473 8.84741 0.941192C8.64374 0.737655 8.36872 0.621568 8.08081 0.617606C7.7929 0.613644 7.5148 0.722119 7.30561 0.919974L0.516609 7.70697C0.413817 7.80955 0.332353 7.93146 0.276916 8.06568C0.221479 8.19989 0.193165 8.34376 0.193609 8.48897Z" />
                       </svg>
@@ -1664,8 +1664,8 @@
                   <a href="#" class="pagination__link">9</a>
                 </li>
                 <li class="pagination-list__item">
-                  <div class="pagination__wrap-btn">
-                    <button type="button" class="pagination__btn pagination__btn_next" aria-label="next-page">
+                  <div class="circle">
+                    <button type="button" class="circle__btn circle__btn_next" aria-label="next-page">
                       <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.17236 8.48949C9.17267 8.3442 9.1442 8.2003 9.08859 8.06607C9.03298 7.93185 8.95133 7.80998 8.84836 7.70749L2.05936 0.919488C1.85004 0.721766 1.57187 0.613469 1.28396 0.617615C0.996052 0.621761 0.721112 0.738023 0.517575 0.94169C0.314038 1.14536 0.197952 1.42037 0.19399 1.70828C0.190028 1.99619 0.298503 2.2743 0.496359 2.48349L6.50336 8.48949L0.496359 14.4955C0.298637 14.7048 0.19034 14.983 0.194486 15.2709C0.198632 15.5588 0.314894 15.8337 0.518561 16.0373C0.722229 16.2408 0.997243 16.3569 1.28515 16.3609C1.57306 16.3648 1.85117 16.2563 2.06036 16.0585L8.84936 9.27149C8.95215 9.16891 9.03361 9.047 9.08905 8.91278C9.14449 8.77857 9.1728 8.6347 9.17236 8.48949Z" />
                       </svg>
@@ -1920,7 +1920,7 @@
             <ul class="filter-list">
               <li class="filter-list__item">
                 <div class="check-box">
-                  <input id="skipper-yes2" class="check-box__field" type="radio" name="skipper" checked/>
+                  <input id="skipper-yes2" class="check-box__field visually-hidden" type="radio" name="skipper" checked/>
                   <label class="check-box__label" for="skipper-yes">
                     <span></span>
                     Yes
@@ -1930,7 +1930,7 @@
 
               <li class="filter-list__item">
                 <div class="check-box">
-                  <input id="skipper-no2" class="check-box__field" type="radio" name="skipper"/>
+                  <input id="skipper-no2" class="check-box__field visually-hidden" type="radio" name="skipper"/>
                   <label class="check-box__label" for="skipper-no2">
                     <span></span>
                     No
@@ -2103,7 +2103,7 @@
           <ul class="filter-list">
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-21" class="check-box__field" type="checkbox" name="skipper-1" checked/>
+                <input id="checkbox-21" class="check-box__field visually-hidden" type="checkbox" name="skipper-1" checked/>
                 <label class="check-box__label" for="checkbox-21">
                   <span></span>
                   Air Conditioned
@@ -2113,7 +2113,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-22" class="check-box__field" type="checkbox" name="skipper-2"/>
+                <input id="checkbox-22" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                 <label class="check-box__label" for="checkbox-22">
                   <span></span>
                   Watermaker
@@ -2123,7 +2123,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-23" class="check-box__field" type="checkbox" name="skipper-2"/>
+                <input id="checkbox-23" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                 <label class="check-box__label" for="checkbox-23">
                   <span></span>
                   Generator
@@ -2133,7 +2133,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-24" class="check-box__field" type="checkbox" name="skipper-2"/>
+                <input id="checkbox-24" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                 <label class="check-box__label" for="checkbox-24">
                   <span></span>
                   Electric Windlass
@@ -2143,7 +2143,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-25" class="check-box__field" type="checkbox" name="skipper-2"/>
+                <input id="checkbox-25" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                 <label class="check-box__label" for="checkbox-25">
                   <span></span>
                   Outboard Motor
@@ -2153,7 +2153,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-26" class="check-box__field" type="checkbox" name="skipper-2"/>
+                <input id="checkbox-26" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                 <label class="check-box__label" for="checkbox-26">
                   <span></span>
                   Autopilot
@@ -2163,7 +2163,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-27" class="check-box__field" type="checkbox" name="skipper-2"/>
+                <input id="checkbox-27" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                 <label class="check-box__label" for="checkbox-27">
                   <span></span>
                   Electric Toilettese
@@ -2173,7 +2173,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-28" class="check-box__field" type="checkbox" name="skipper-2"/>
+                <input id="checkbox-28" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                 <label class="check-box__label" for="checkbox-28">
                   <span></span>
                   Furling Mainsail
@@ -2183,7 +2183,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-29" class="check-box__field" type="checkbox" name="skipper-2"/>
+                <input id="checkbox-29" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                 <label class="check-box__label" for="checkbox-29">
                   <span></span>
                   Solar Panel
@@ -2193,7 +2193,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-210" class="check-box__field" type="checkbox" name="skipper-2"/>
+                <input id="checkbox-210" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                 <label class="check-box__label" for="checkbox-210">
                   <span></span>
                   Barbecue Grill
@@ -2203,7 +2203,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-211" class="check-box__field" type="checkbox" name="skipper-2" checked/>
+                <input id="checkbox-211" class="check-box__field visually-hidden" type="checkbox" name="skipper-2" checked/>
                 <label class="check-box__label" for="checkbox-211">
                   <span></span>
                   GPS
@@ -2213,7 +2213,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-212" class="check-box__field" type="checkbox" name="skipper-2"/>
+                <input id="checkbox-212" class="check-box__field visually-hidden" type="checkbox" name="skipper-2"/>
                 <label class="check-box__label" for="checkbox-212">
                   <span></span>
                   Electric Winch
@@ -2223,7 +2223,7 @@
 
             <li class="filter-list__item">
               <div class="check-box">
-                <input id="checkbox-213" class="check-box__field" type="checkbox" name="skipper-2" checked/>
+                <input id="checkbox-213" class="check-box__field visually-hidden" type="checkbox" name="skipper-2" checked/>
                 <label class="check-box__label" for="checkbox-213">
                   <span></span>
                   Wifi
