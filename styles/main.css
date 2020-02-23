@@ -3372,6 +3372,8 @@ img {
 }
 
 .title__icon-wrap span {
+  position: relative;
+  top: 2px;
   font-size: 0.75rem;
   font-family: "MullerMedium", sans-serif;
   color: rgba(255, 255, 255, 0.5);
