@@ -185,13 +185,57 @@ var _data_countries__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webp
 
 
 $(document).ready(function () {
-  //header
+  $(window).scroll(function () {
+    var scrollTop = $(this).scrollTop();
+    $("#cloud").css({
+      'top': (scrollTop + 300) / 2 + 'px',
+      'left': (scrollTop - 3000) / 3 + 'px'
+    });
+    var target = $('.section_waves').offset().top;
+
+    if (scrollTop > target - 400) {
+      $('.waves-1').addClass('visible');
+    } else {
+      $('.waves-1').removeClass('visible');
+    }
+
+    if (scrollTop > target - 380) {
+      $('.waves-2').addClass('visible');
+    } else {
+      $('.waves-2').removeClass('visible');
+    }
+
+    if (scrollTop > target - 350) {
+      $('.waves-3').addClass('visible');
+    } else {
+      $('.waves-3').removeClass('visible');
+    }
+
+    if (scrollTop > target - 300) {
+      $('.waves-4').addClass('visible');
+    } else {
+      $('.waves-4').removeClass('visible');
+    }
+
+    if (scrollTop > target - 250) {
+      $('.waves-5').addClass('visible');
+    } else {
+      $('.waves-5').removeClass('visible');
+    }
+
+    if (scrollTop > target - 330) {
+      $('.waves-6').addClass('visible');
+    } else {
+      $('.waves-6').removeClass('visible');
+    }
+  }); //header
+
   $(window).scroll(function () {
     var windowWidth = $(this).width();
     var windowHeight = $(this).height();
     var windowScrollTop = $(this).scrollTop();
 
-    if (windowScrollTop > 200) {
+    if (windowScrollTop > 100) {
       $(".header").addClass("small-blue");
     } else {
       $(".header").removeClass("small-blue");

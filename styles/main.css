@@ -3345,6 +3345,125 @@ img {
   border-radius: 50%;
 }
 
+.title {
+  padding-top: 250px;
+  max-width: 510px;
+}
+
+.title h1 {
+  margin: 0 0 50px;
+  font-size: 5rem;
+  font-family: "DINProCondensedBold", sans-serif;
+  color: #ffffff;
+  letter-spacing: .3px;
+}
+
+.title p {
+  margin: 0 0 40px;
+  font-size: 1.125rem;
+  font-family: "MullerMedium", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: .3px;
+}
+
+.title__icon-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.title__icon-wrap span {
+  font-size: 0.75rem;
+  font-family: "MullerMedium", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: .3px;
+}
+
+.title__icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+  box-shadow: 0 3px 10px rgba(132, 164, 215, 0.55);
+}
+
+.main-info {
+  position: absolute;
+  bottom: 100px;
+  height: 80px;
+  width: 100%;
+  max-width: 1300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.waves {
+  position: absolute;
+  z-index: 1;
+  transform: translateX(-50%) scale(0);
+  left: 50%;
+  box-shadow: 0 5px 40px rgba(148, 183, 228, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.waves-wrap {
+  margin: auto;
+  max-height: 500px;
+}
+
+.waves-wrap img {
+  margin: auto;
+}
+
+.waves-1 {
+  top: 235px;
+  margin-left: -480px;
+  width: 120px;
+  height: 120px;
+}
+
+.waves-2 {
+  top: 245px;
+  margin-left: 670px;
+  width: 170px;
+  height: 170px;
+}
+
+.waves-3 {
+  top: 480px;
+  margin-left: -950px;
+  width: 90px;
+  height: 90px;
+}
+
+.waves-4 {
+  top: 520px;
+  margin-left: 540px;
+  width: 90px;
+  height: 90px;
+}
+
+.waves-5 {
+  top: 600px;
+  margin-left: -630px;
+  width: 170px;
+  height: 170px;
+}
+
+.waves-6 {
+  top: 480px;
+  margin-left: 950px;
+  width: 90px;
+  height: 90px;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+
 .circle {
   position: relative;
   display: inline-flex;
@@ -3404,6 +3523,10 @@ img {
   align-items: center;
   justify-content: center;
   margin: 0 0 10px;
+}
+
+.more_find {
+  margin: 50px 0 0;
 }
 
 .more__link {
@@ -3639,12 +3762,19 @@ img {
 .section_main {
   position: relative;
   height: 1080px;
+  margin: 0 0 100px;
   background-color: #08396f;
   background-image: url("../../img/index/banner2.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: unset;
   overflow: hidden;
+}
+
+.section_waves {
+  position: relative;
+  padding: 0 0 100px;
+  overflow-x: hidden;
 }
 
 .section-banner {

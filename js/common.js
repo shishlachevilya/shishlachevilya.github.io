@@ -169,7 +169,7 @@
     var windowHeight = $(this).height();
     var windowScrollTop = $(this).scrollTop();
 
-    if (windowScrollTop > 200) {
+    if (windowScrollTop > 100) {
       $(".header").addClass("small-white");
     } else {
       $(".header").removeClass("small-white");
