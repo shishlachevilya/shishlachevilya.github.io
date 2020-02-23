@@ -188,7 +188,7 @@ $(document).ready(function () {
   $(window).scroll(function () {
     var scrollTop = $(this).scrollTop();
     $("#cloud").css({
-      'top': (scrollTop + 300) / 2 + 'px',
+      // 'top': ((scrollTop + 300) / 2) + 'px',
       'left': (scrollTop - 3000) / 3 + 'px'
     });
     var target = $('.section_waves').offset().top;

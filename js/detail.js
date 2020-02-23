@@ -168,6 +168,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _libs_slick_slick_min__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_libs_slick_slick_min__WEBPACK_IMPORTED_MODULE_0__);
 
 $(document).ready(function () {
+  $('.detail-slider').slick({
+    dots: false,
+    arrows: false,
+    infinite: true,
+    vertical: true,
+    speed: 600,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  });
+  $('.circle_prev').on('click', function () {
+    $('.detail-slider').slick('slickPrev');
+  });
+  $('.circle_next').on('click', function () {
+    $('.detail-slider').slick('slickNext');
+  });
   $('.similar-slider').slick({
     dots: false,
     arrows: false,
