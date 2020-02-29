@@ -425,6 +425,37 @@ $(document).ready(function () {
 
       return date;
     }
+  });
+  $(function () {
+    var dateFormat = "Medium";
+    var from2 = $("#from2").datepicker({
+      defaultDate: "11 Feb, 2020",
+      dateFormat: "d M, yy",
+      changeMonth: false,
+      numberOfMonths: 1
+    }).on("change", function () {
+      to2.datepicker("option", "minDate", getDate(this));
+    });
+    var to2 = $("#to2").datepicker({
+      defaultDate: "11 Feb, 2021",
+      dateFormat: "d M, yy",
+      changeMonth: false,
+      numberOfMonths: 1
+    }).on("change", function () {
+      from2.datepicker("option", "maxDate", getDate(this));
+    });
+
+    function getDate(element) {
+      var date;
+
+      try {
+        date = $.datepicker.parseDate(dateFormat, element.value);
+      } catch (error) {
+        date = null;
+      }
+
+      return date;
+    }
   }); // Search
 
   var input = document.querySelector("#search-field");

@@ -168,7 +168,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _libs_slick_slick_min__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_libs_slick_slick_min__WEBPACK_IMPORTED_MODULE_0__);
 
 $(document).ready(function () {
-  $('.detail-slider').slick({
+  $('.nav-slider').slick({
     dots: false,
     arrows: false,
     infinite: true,
@@ -176,14 +176,28 @@ $(document).ready(function () {
     speed: 600,
     autoplay: false,
     autoplaySpeed: 2000,
-    slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [{
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }, {
+      breakpoint: 767,
+      settings: {
+        vertical: false,
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    }]
   });
   $('.circle_prev').on('click', function () {
-    $('.detail-slider').slick('slickPrev');
+    $('.nav-slider').slick('slickPrev');
   });
   $('.circle_next').on('click', function () {
-    $('.detail-slider').slick('slickNext');
+    $('.nav-slider').slick('slickNext');
   });
   $('.similar-slider').slick({
     dots: false,
